@@ -1,0 +1,6 @@
+@Macro.Api_HostAddress = http://localhost:5213
+
+GET {{Macro.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

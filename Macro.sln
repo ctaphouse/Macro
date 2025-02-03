@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro.Shared", "Macro.Shared\Macro.Shared.csproj", "{EA72D30F-8ADA-4A80-9B54-D04139A35708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro.Api", "Macro.Api\Macro.Api.csproj", "{7A7BFAB8-58B5-4613-B2C1-E4FFA149BFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro.Client", "Macro.Client\Macro.Client.csproj", "{730E4C10-6CC5-4DC9-B510-A85C1A9932CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA72D30F-8ADA-4A80-9B54-D04139A35708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA72D30F-8ADA-4A80-9B54-D04139A35708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA72D30F-8ADA-4A80-9B54-D04139A35708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA72D30F-8ADA-4A80-9B54-D04139A35708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7BFAB8-58B5-4613-B2C1-E4FFA149BFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7BFAB8-58B5-4613-B2C1-E4FFA149BFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7BFAB8-58B5-4613-B2C1-E4FFA149BFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7BFAB8-58B5-4613-B2C1-E4FFA149BFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730E4C10-6CC5-4DC9-B510-A85C1A9932CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730E4C10-6CC5-4DC9-B510-A85C1A9932CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730E4C10-6CC5-4DC9-B510-A85C1A9932CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730E4C10-6CC5-4DC9-B510-A85C1A9932CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
