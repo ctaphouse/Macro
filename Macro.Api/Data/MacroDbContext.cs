@@ -11,7 +11,12 @@ namespace Macro.Api.Data
         }
 
         // Add your DbSet properties here
-         public DbSet<Gecko> Geckos { get; set; }
+         public DbSet<AdjustedItem> AdjustedItems { get; set; }
+         public DbSet<AdjustedRecipe> AdjustedRecipes { get; set; }
+         public DbSet<Item> Items { get; set; }
+         public DbSet<ItemType> ItemTypes{ get; set; }
+         public DbSet<Recipe> Recipes{ get; set; }
+         public DbSet<RecipeItem> RecipeItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
