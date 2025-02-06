@@ -10,8 +10,7 @@ namespace Macro.Api.Models
         public int RecipeId { get; set; }
         public int ItemId { get; set; }
         
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal Measurement { get; set; }
+        public string Measurement { get; set; }
         
         [Column(TypeName = "decimal(18,2)")]
         public decimal GramEquivalent { get; set; }
