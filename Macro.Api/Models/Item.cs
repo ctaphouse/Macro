@@ -7,7 +7,7 @@ namespace Macro.Api.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
+        public required string Name { get; set; }
         public int Calories { get; set; }
         
         [Column(TypeName = "decimal(18,2)")]
@@ -28,6 +28,6 @@ namespace Macro.Api.Models
         public int ItemTypeId { get; set; }
         
         [ForeignKey("ItemTypeId")]
-        public virtual ItemType ItemType { get; set; }
+        public ItemType ItemType { get; set; } = null!;
     }
 }

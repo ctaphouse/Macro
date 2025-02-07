@@ -9,11 +9,11 @@ namespace Macro.Api.Models
         public int Id { get; set; }
         public int RecipeId { get; set; }
 
-        public string Measurement { get; set; }
+        public required string Measurement { get; set; }
         
         public int Servings { get; set; }
         
         [ForeignKey("RecipeId")]
-        public virtual Recipe Recipe { get; set; }
+        public Recipe Recipe { get; set; } = null!;
     }
 }

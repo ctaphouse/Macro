@@ -10,15 +10,15 @@ namespace Macro.Api.Models
         public int RecipeId { get; set; }
         public int ItemId { get; set; }
         
-        public string Measurement { get; set; }
+        public required string Measurement { get; set; }
         
         [Column(TypeName = "decimal(18,2)")]
         public decimal GramEquivalent { get; set; }
         
         [ForeignKey("RecipeId")]
-        public virtual Recipe Recipe { get; set; }
+        public Recipe Recipe { get; set; } = null!;
         
         [ForeignKey("ItemId")]
-        public virtual Item Item { get; set; }
+        public Item Item { get; set; } = null!;
     }
 }
