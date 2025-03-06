@@ -1,8 +1,9 @@
-using Macro.Api.Data;
-using Macro.Api.Models;
-using Macro.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using Macro.Api.Data; // Replace with your actual namespace
+using Macro.Api.Models; // Replace with your actual namespace
+using Macro.Shared.Dtos;
 
 namespace Macro.Api.Controllers
 {
@@ -10,89 +11,79 @@ namespace Macro.Api.Controllers
     [ApiController]
     public class ItemTypesController : ControllerBase
     {
-        private readonly MacroDbContext _context;
+        private readonly BullFrogDbContext _context;
 
-        public ItemTypesController(MacroDbContext context)
+        private readonly IMapper _mapper;
+
+        public ItemTypesController(BullFrogDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
+        // GET: api/itemtype)
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ItemTypeDto>>> GetItemTypes()
         {
-            var itemTypes = await _context.ItemTypes.Select(it => new ItemTypeDto
-            {
-                Id = it.Id,
-                Name = it.Name
-            }).ToListAsync();
-
-            return Ok(itemTypes);
+            var itemtypes = await _context.ItemTypes.OrderBy(i => i.Name).ToListAsync();
+            return Ok(_mapper.Map<IEnumerable<ItemTypeDto>>(itemtypes));
         }
 
+        // GET: api/itemtype/5
         [HttpGet("{id}")]
         public async Task<ActionResult<ItemTypeDto>> GetItemType(int id)
         {
-            var itemType = await _context.ItemTypes.Select(it => new ItemTypeDto
-            {
-                Id = it.Id,
-                Name = it.Name
-            }).FirstOrDefaultAsync(it => it.Id == id);
-
-            if (itemType == null)
+            var itemtype = await _context.ItemTypes.FindAsync(id);
+            if (itemtype == null)
             {
                 return NotFound();
             }
-
-            return Ok(itemType);
+            return Ok(_mapper.Map<ItemTypeDto>(itemtype));
         }
 
+        // POST: api/itemtype
         [HttpPost]
-        public async Task<ActionResult<ItemTypeDto>> CreateItemType(ItemTypeDto itemTypeDto)
+        public async Task<ActionResult<ItemTypeDto>> CreateItemType(ItemTypeDto itemtypeDto)
         {
-            var itemType = new ItemType
-            {
-                Name = itemTypeDto.Name
-            };
-
-            _context.ItemTypes.Add(itemType);
+            var itemtype = _mapper.Map<ItemType>(itemtypeDto);
+            _context.ItemTypes.Add(itemtype);
             await _context.SaveChangesAsync();
 
-            itemTypeDto.Id = itemType.Id;
-
-            return CreatedAtAction(nameof(GetItemType), new { id = itemTypeDto.Id }, itemTypeDto);
+            return CreatedAtAction(nameof(GetItemType), new { id = itemtype.Id }, _mapper.Map<ItemTypeDto>(itemtype));
         }
 
+        // PUT: api/itemtype/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateItemType(int id, ItemTypeDto itemTypeDto)
+        public async Task<IActionResult> UpdateItemType(int id, ItemTypeDto itemtypeDto)
         {
-            if (id != itemTypeDto.Id)
+            if (id != itemtypeDto.Id)
             {
                 return BadRequest();
             }
 
-            var itemType = await _context.ItemTypes.FindAsync(id);
-            if (itemType == null)
+            var itemtype = await _context.ItemTypes.FindAsync(id);
+            if (itemtype == null)
             {
                 return NotFound();
             }
 
-            itemType.Name = itemTypeDto.Name;
-
+            _mapper.Map(itemtypeDto, itemtype);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
+        // DELETE: api/itemtype/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteItemType(int id)
         {
-            var itemType = await _context.ItemTypes.FindAsync(id);
-            if (itemType == null)
+            var itemtype = await _context.ItemTypes.FindAsync(id);
+            if (itemtype == null)
             {
                 return NotFound();
             }
 
-            _context.ItemTypes.Remove(itemType);
+            _context.ItemTypes.Remove(itemtype);
             await _context.SaveChangesAsync();
 
             return NoContent();

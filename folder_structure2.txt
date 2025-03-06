@@ -1,0 +1,2886 @@
+Folder PATH listing for volume OS
+Volume serial number is E824-AC58
+C:.
+|   .gitignore
+|   folder_structure.txt
+|   folder_structure2.txt
+|   Macro.sln
+|   
++---Macro.Api
+|   |   appsettings.Development.json
+|   |   appsettings.json
+|   |   Macro.Api.csproj
+|   |   Macro.Api.http
+|   |   Program.cs
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   appsettings.Development.json
+|   |           |   appsettings.json
+|   |           |   AutoMapper.dll
+|   |           |   AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+|   |           |   Azure.Core.dll
+|   |           |   Azure.Identity.dll
+|   |           |   Humanizer.dll
+|   |           |   Macro.Api.deps.json
+|   |           |   Macro.Api.dll
+|   |           |   Macro.Api.exe
+|   |           |   Macro.Api.pdb
+|   |           |   Macro.Api.runtimeconfig.json
+|   |           |   Macro.Shared.dll
+|   |           |   Macro.Shared.pdb
+|   |           |   Microsoft.AspNetCore.OpenApi.dll
+|   |           |   Microsoft.Bcl.AsyncInterfaces.dll
+|   |           |   Microsoft.Build.Locator.dll
+|   |           |   Microsoft.CodeAnalysis.CSharp.dll
+|   |           |   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+|   |           |   Microsoft.CodeAnalysis.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+|   |           |   Microsoft.Data.SqlClient.dll
+|   |           |   Microsoft.EntityFrameworkCore.Abstractions.dll
+|   |           |   Microsoft.EntityFrameworkCore.Design.dll
+|   |           |   Microsoft.EntityFrameworkCore.dll
+|   |           |   Microsoft.EntityFrameworkCore.Relational.dll
+|   |           |   Microsoft.EntityFrameworkCore.SqlServer.dll
+|   |           |   Microsoft.Extensions.Caching.Abstractions.dll
+|   |           |   Microsoft.Extensions.Caching.Memory.dll
+|   |           |   Microsoft.Extensions.Configuration.Abstractions.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.dll
+|   |           |   Microsoft.Extensions.DependencyModel.dll
+|   |           |   Microsoft.Extensions.Logging.Abstractions.dll
+|   |           |   Microsoft.Extensions.Logging.dll
+|   |           |   Microsoft.Extensions.Options.dll
+|   |           |   Microsoft.Extensions.Primitives.dll
+|   |           |   Microsoft.Identity.Client.dll
+|   |           |   Microsoft.Identity.Client.Extensions.Msal.dll
+|   |           |   Microsoft.IdentityModel.Abstractions.dll
+|   |           |   Microsoft.IdentityModel.JsonWebTokens.dll
+|   |           |   Microsoft.IdentityModel.Logging.dll
+|   |           |   Microsoft.IdentityModel.Protocols.dll
+|   |           |   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+|   |           |   Microsoft.IdentityModel.Tokens.dll
+|   |           |   Microsoft.OpenApi.dll
+|   |           |   Microsoft.SqlServer.Server.dll
+|   |           |   Microsoft.Win32.SystemEvents.dll
+|   |           |   Mono.TextTemplating.dll
+|   |           |   Swashbuckle.AspNetCore.Swagger.dll
+|   |           |   Swashbuckle.AspNetCore.SwaggerGen.dll
+|   |           |   Swashbuckle.AspNetCore.SwaggerUI.dll
+|   |           |   System.ClientModel.dll
+|   |           |   System.CodeDom.dll
+|   |           |   System.Composition.AttributedModel.dll
+|   |           |   System.Composition.Convention.dll
+|   |           |   System.Composition.Hosting.dll
+|   |           |   System.Composition.Runtime.dll
+|   |           |   System.Composition.TypedParts.dll
+|   |           |   System.Configuration.ConfigurationManager.dll
+|   |           |   System.Diagnostics.DiagnosticSource.dll
+|   |           |   System.Drawing.Common.dll
+|   |           |   System.Formats.Asn1.dll
+|   |           |   System.IdentityModel.Tokens.Jwt.dll
+|   |           |   System.IO.Pipelines.dll
+|   |           |   System.Memory.Data.dll
+|   |           |   System.Runtime.Caching.dll
+|   |           |   System.Security.Cryptography.ProtectedData.dll
+|   |           |   System.Security.Permissions.dll
+|   |           |   System.Text.Encodings.Web.dll
+|   |           |   System.Text.Json.dll
+|   |           |   System.Windows.Extensions.dll
+|   |           |   
+|   |           +---cs
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---de
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---es
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---fr
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---it
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ja
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ko
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---pl
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---pt-BR
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ru
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---runtimes
+|   |           |   +---browser
+|   |           |   |   \---lib
+|   |           |   |       \---net8.0
+|   |           |   |               System.Text.Encodings.Web.dll
+|   |           |   |               
+|   |           |   +---unix
+|   |           |   |   \---lib
+|   |           |   |       \---net6.0
+|   |           |   |               Microsoft.Data.SqlClient.dll
+|   |           |   |               System.Drawing.Common.dll
+|   |           |   |               
+|   |           |   +---win
+|   |           |   |   \---lib
+|   |           |   |       \---net6.0
+|   |           |   |               Microsoft.Data.SqlClient.dll
+|   |           |   |               Microsoft.Win32.SystemEvents.dll
+|   |           |   |               System.Drawing.Common.dll
+|   |           |   |               System.Runtime.Caching.dll
+|   |           |   |               System.Security.Cryptography.ProtectedData.dll
+|   |           |   |               System.Windows.Extensions.dll
+|   |           |   |               
+|   |           |   +---win-arm
+|   |           |   |   \---native
+|   |           |   |           Microsoft.Data.SqlClient.SNI.dll
+|   |           |   |           
+|   |           |   +---win-arm64
+|   |           |   |   \---native
+|   |           |   |           Microsoft.Data.SqlClient.SNI.dll
+|   |           |   |           
+|   |           |   +---win-x64
+|   |           |   |   \---native
+|   |           |   |           Microsoft.Data.SqlClient.SNI.dll
+|   |           |   |           
+|   |           |   \---win-x86
+|   |           |       \---native
+|   |           |               Microsoft.Data.SqlClient.SNI.dll
+|   |           |               
+|   |           +---tr
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---zh-Hans
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           \---zh-Hant
+|   |                   Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |                   Microsoft.CodeAnalysis.resources.dll
+|   |                   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |                   
+|   +---Controllers
+|   |       AdjustedItemsController.cs
+|   |       AdjustedRecipesController.cs
+|   |       ItemsController.cs
+|   |       ItemTypesController.cs
+|   |       RecipeItemsController.cs
+|   |       RecipesController.cs
+|   |       
+|   +---Data
+|   |   |   MacroDbContext.cs
+|   |   |   
+|   |   +---Configuration
+|   |   \---Repositories
+|   +---Migrations
+|   |       20250203194716_migration1.cs
+|   |       20250203194716_migration1.Designer.cs
+|   |       20250206192652_Migration4.cs
+|   |       20250206192652_Migration4.Designer.cs
+|   |       20250206193452_Migration5.cs
+|   |       20250206193452_Migration5.Designer.cs
+|   |       MacroDbContextModelSnapshot.cs
+|   |       
+|   +---Models
+|   |       AdjustedItem.cs
+|   |       AdjustedRecipe.cs
+|   |       Item.cs
+|   |       ItemType.cs
+|   |       Recipe.cs
+|   |       RecipeItem.cs
+|   |       
+|   +---obj
+|   |   |   Macro.Api.csproj.EntityFrameworkCore.targets
+|   |   |   Macro.Api.csproj.nuget.dgspec.json
+|   |   |   Macro.Api.csproj.nuget.g.props
+|   |   |   Macro.Api.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|   |           |   apphost.exe
+|   |           |   Macro.Api.AssemblyInfo.cs
+|   |           |   Macro.Api.AssemblyInfoInputs.cache
+|   |           |   Macro.Api.assets.cache
+|   |           |   Macro.Api.csproj.AssemblyReference.cache
+|   |           |   Macro.Api.csproj.CopyComplete
+|   |           |   Macro.Api.csproj.CoreCompileInputs.cache
+|   |           |   Macro.Api.csproj.FileListAbsolute.txt
+|   |           |   Macro.Api.dll
+|   |           |   Macro.Api.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   Macro.Api.genruntimeconfig.cache
+|   |           |   Macro.Api.GlobalUsings.g.cs
+|   |           |   Macro.Api.MvcApplicationPartsAssemblyInfo.cache
+|   |           |   Macro.Api.MvcApplicationPartsAssemblyInfo.cs
+|   |           |   Macro.Api.pdb
+|   |           |   Macro.Api.sourcelink.json
+|   |           |   staticwebassets.build.json
+|   |           |   
+|   |           +---ref
+|   |           |       Macro.Api.dll
+|   |           |       
+|   |           +---refint
+|   |           |       Macro.Api.dll
+|   |           |       
+|   |           \---staticwebassets
+|   |                   msbuild.build.Macro.Api.props
+|   |                   msbuild.buildMultiTargeting.Macro.Api.props
+|   |                   msbuild.buildTransitive.Macro.Api.props
+|   |                   
+|   +---Properties
+|   |       launchSettings.json
+|   |       
+|   \---Services
++---Macro.Client
+|   |   App.razor
+|   |   Macro.Client.csproj
+|   |   package-lock.json
+|   |   package.json
+|   |   postcss.config.js
+|   |   Program.cs
+|   |   tailwind.config.js
+|   |   _Imports.razor
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   dotnet.js
+|   |           |   dotnet.js.map
+|   |           |   dotnet.native.js
+|   |           |   dotnet.native.wasm
+|   |           |   dotnet.runtime.js
+|   |           |   dotnet.runtime.js.map
+|   |           |   icudt_CJK.dat
+|   |           |   icudt_EFIGS.dat
+|   |           |   icudt_no_CJK.dat
+|   |           |   Macro.Client.dll
+|   |           |   Macro.Client.pdb
+|   |           |   Macro.Client.staticwebassets.runtime.json
+|   |           |   Macro.Shared.dll
+|   |           |   Macro.Shared.pdb
+|   |           |   Microsoft.AspNetCore.Authorization.dll
+|   |           |   Microsoft.AspNetCore.Components.dll
+|   |           |   Microsoft.AspNetCore.Components.Forms.dll
+|   |           |   Microsoft.AspNetCore.Components.Web.dll
+|   |           |   Microsoft.AspNetCore.Components.WebAssembly.dll
+|   |           |   Microsoft.AspNetCore.Metadata.dll
+|   |           |   Microsoft.CSharp.dll
+|   |           |   Microsoft.Extensions.Configuration.Abstractions.dll
+|   |           |   Microsoft.Extensions.Configuration.Binder.dll
+|   |           |   Microsoft.Extensions.Configuration.dll
+|   |           |   Microsoft.Extensions.Configuration.FileExtensions.dll
+|   |           |   Microsoft.Extensions.Configuration.Json.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.dll
+|   |           |   Microsoft.Extensions.FileProviders.Abstractions.dll
+|   |           |   Microsoft.Extensions.FileProviders.Physical.dll
+|   |           |   Microsoft.Extensions.FileSystemGlobbing.dll
+|   |           |   Microsoft.Extensions.Logging.Abstractions.dll
+|   |           |   Microsoft.Extensions.Logging.dll
+|   |           |   Microsoft.Extensions.Options.dll
+|   |           |   Microsoft.Extensions.Primitives.dll
+|   |           |   Microsoft.JSInterop.dll
+|   |           |   Microsoft.JSInterop.WebAssembly.dll
+|   |           |   Microsoft.VisualBasic.Core.dll
+|   |           |   Microsoft.VisualBasic.dll
+|   |           |   Microsoft.Win32.Primitives.dll
+|   |           |   Microsoft.Win32.Registry.dll
+|   |           |   mscorlib.dll
+|   |           |   netstandard.dll
+|   |           |   System.AppContext.dll
+|   |           |   System.Buffers.dll
+|   |           |   System.Collections.Concurrent.dll
+|   |           |   System.Collections.dll
+|   |           |   System.Collections.Immutable.dll
+|   |           |   System.Collections.NonGeneric.dll
+|   |           |   System.Collections.Specialized.dll
+|   |           |   System.ComponentModel.Annotations.dll
+|   |           |   System.ComponentModel.DataAnnotations.dll
+|   |           |   System.ComponentModel.dll
+|   |           |   System.ComponentModel.EventBasedAsync.dll
+|   |           |   System.ComponentModel.Primitives.dll
+|   |           |   System.ComponentModel.TypeConverter.dll
+|   |           |   System.Configuration.dll
+|   |           |   System.Console.dll
+|   |           |   System.Core.dll
+|   |           |   System.Data.Common.dll
+|   |           |   System.Data.DataSetExtensions.dll
+|   |           |   System.Data.dll
+|   |           |   System.Diagnostics.Contracts.dll
+|   |           |   System.Diagnostics.Debug.dll
+|   |           |   System.Diagnostics.DiagnosticSource.dll
+|   |           |   System.Diagnostics.FileVersionInfo.dll
+|   |           |   System.Diagnostics.Process.dll
+|   |           |   System.Diagnostics.StackTrace.dll
+|   |           |   System.Diagnostics.TextWriterTraceListener.dll
+|   |           |   System.Diagnostics.Tools.dll
+|   |           |   System.Diagnostics.TraceSource.dll
+|   |           |   System.Diagnostics.Tracing.dll
+|   |           |   System.dll
+|   |           |   System.Drawing.dll
+|   |           |   System.Drawing.Primitives.dll
+|   |           |   System.Dynamic.Runtime.dll
+|   |           |   System.Formats.Asn1.dll
+|   |           |   System.Formats.Tar.dll
+|   |           |   System.Globalization.Calendars.dll
+|   |           |   System.Globalization.dll
+|   |           |   System.Globalization.Extensions.dll
+|   |           |   System.IO.Compression.Brotli.dll
+|   |           |   System.IO.Compression.dll
+|   |           |   System.IO.Compression.FileSystem.dll
+|   |           |   System.IO.Compression.ZipFile.dll
+|   |           |   System.IO.dll
+|   |           |   System.IO.FileSystem.AccessControl.dll
+|   |           |   System.IO.FileSystem.dll
+|   |           |   System.IO.FileSystem.DriveInfo.dll
+|   |           |   System.IO.FileSystem.Primitives.dll
+|   |           |   System.IO.FileSystem.Watcher.dll
+|   |           |   System.IO.IsolatedStorage.dll
+|   |           |   System.IO.MemoryMappedFiles.dll
+|   |           |   System.IO.Pipelines.dll
+|   |           |   System.IO.Pipes.AccessControl.dll
+|   |           |   System.IO.Pipes.dll
+|   |           |   System.IO.UnmanagedMemoryStream.dll
+|   |           |   System.Linq.dll
+|   |           |   System.Linq.Expressions.dll
+|   |           |   System.Linq.Parallel.dll
+|   |           |   System.Linq.Queryable.dll
+|   |           |   System.Memory.dll
+|   |           |   System.Net.dll
+|   |           |   System.Net.Http.dll
+|   |           |   System.Net.Http.Json.dll
+|   |           |   System.Net.HttpListener.dll
+|   |           |   System.Net.Mail.dll
+|   |           |   System.Net.NameResolution.dll
+|   |           |   System.Net.NetworkInformation.dll
+|   |           |   System.Net.Ping.dll
+|   |           |   System.Net.Primitives.dll
+|   |           |   System.Net.Quic.dll
+|   |           |   System.Net.Requests.dll
+|   |           |   System.Net.Security.dll
+|   |           |   System.Net.ServicePoint.dll
+|   |           |   System.Net.Sockets.dll
+|   |           |   System.Net.WebClient.dll
+|   |           |   System.Net.WebHeaderCollection.dll
+|   |           |   System.Net.WebProxy.dll
+|   |           |   System.Net.WebSockets.Client.dll
+|   |           |   System.Net.WebSockets.dll
+|   |           |   System.Numerics.dll
+|   |           |   System.Numerics.Vectors.dll
+|   |           |   System.ObjectModel.dll
+|   |           |   System.Private.CoreLib.dll
+|   |           |   System.Private.DataContractSerialization.dll
+|   |           |   System.Private.Uri.dll
+|   |           |   System.Private.Xml.dll
+|   |           |   System.Private.Xml.Linq.dll
+|   |           |   System.Reflection.DispatchProxy.dll
+|   |           |   System.Reflection.dll
+|   |           |   System.Reflection.Emit.dll
+|   |           |   System.Reflection.Emit.ILGeneration.dll
+|   |           |   System.Reflection.Emit.Lightweight.dll
+|   |           |   System.Reflection.Extensions.dll
+|   |           |   System.Reflection.Metadata.dll
+|   |           |   System.Reflection.Primitives.dll
+|   |           |   System.Reflection.TypeExtensions.dll
+|   |           |   System.Resources.Reader.dll
+|   |           |   System.Resources.ResourceManager.dll
+|   |           |   System.Resources.Writer.dll
+|   |           |   System.Runtime.CompilerServices.Unsafe.dll
+|   |           |   System.Runtime.CompilerServices.VisualC.dll
+|   |           |   System.Runtime.dll
+|   |           |   System.Runtime.Extensions.dll
+|   |           |   System.Runtime.Handles.dll
+|   |           |   System.Runtime.InteropServices.dll
+|   |           |   System.Runtime.InteropServices.JavaScript.dll
+|   |           |   System.Runtime.InteropServices.RuntimeInformation.dll
+|   |           |   System.Runtime.Intrinsics.dll
+|   |           |   System.Runtime.Loader.dll
+|   |           |   System.Runtime.Numerics.dll
+|   |           |   System.Runtime.Serialization.dll
+|   |           |   System.Runtime.Serialization.Formatters.dll
+|   |           |   System.Runtime.Serialization.Json.dll
+|   |           |   System.Runtime.Serialization.Primitives.dll
+|   |           |   System.Runtime.Serialization.Xml.dll
+|   |           |   System.Security.AccessControl.dll
+|   |           |   System.Security.Claims.dll
+|   |           |   System.Security.Cryptography.Algorithms.dll
+|   |           |   System.Security.Cryptography.Cng.dll
+|   |           |   System.Security.Cryptography.Csp.dll
+|   |           |   System.Security.Cryptography.dll
+|   |           |   System.Security.Cryptography.Encoding.dll
+|   |           |   System.Security.Cryptography.OpenSsl.dll
+|   |           |   System.Security.Cryptography.Primitives.dll
+|   |           |   System.Security.Cryptography.X509Certificates.dll
+|   |           |   System.Security.dll
+|   |           |   System.Security.Principal.dll
+|   |           |   System.Security.Principal.Windows.dll
+|   |           |   System.Security.SecureString.dll
+|   |           |   System.ServiceModel.Web.dll
+|   |           |   System.ServiceProcess.dll
+|   |           |   System.Text.Encoding.CodePages.dll
+|   |           |   System.Text.Encoding.dll
+|   |           |   System.Text.Encoding.Extensions.dll
+|   |           |   System.Text.Encodings.Web.dll
+|   |           |   System.Text.Json.dll
+|   |           |   System.Text.RegularExpressions.dll
+|   |           |   System.Threading.Channels.dll
+|   |           |   System.Threading.dll
+|   |           |   System.Threading.Overlapped.dll
+|   |           |   System.Threading.Tasks.Dataflow.dll
+|   |           |   System.Threading.Tasks.dll
+|   |           |   System.Threading.Tasks.Extensions.dll
+|   |           |   System.Threading.Tasks.Parallel.dll
+|   |           |   System.Threading.Thread.dll
+|   |           |   System.Threading.ThreadPool.dll
+|   |           |   System.Threading.Timer.dll
+|   |           |   System.Transactions.dll
+|   |           |   System.Transactions.Local.dll
+|   |           |   System.ValueTuple.dll
+|   |           |   System.Web.dll
+|   |           |   System.Web.HttpUtility.dll
+|   |           |   System.Windows.dll
+|   |           |   System.Xml.dll
+|   |           |   System.Xml.Linq.dll
+|   |           |   System.Xml.ReaderWriter.dll
+|   |           |   System.Xml.Serialization.dll
+|   |           |   System.Xml.XDocument.dll
+|   |           |   System.Xml.XmlDocument.dll
+|   |           |   System.Xml.XmlSerializer.dll
+|   |           |   System.Xml.XPath.dll
+|   |           |   System.Xml.XPath.XDocument.dll
+|   |           |   tailwindcss.dll
+|   |           |   WindowsBase.dll
+|   |           |   
+|   |           \---wwwroot
+|   |               \---_framework
+|   |                       blazor.boot.json
+|   |                       blazor.boot.json.gz
+|   |                       blazor.webassembly.js
+|   |                       blazor.webassembly.js.gz
+|   |                       dotnet.js
+|   |                       dotnet.js.gz
+|   |                       dotnet.js.map
+|   |                       dotnet.js.map.gz
+|   |                       dotnet.native.8.0.12.ih6mu4ezqm.js
+|   |                       dotnet.native.8.0.12.ih6mu4ezqm.js.gz
+|   |                       dotnet.native.wasm
+|   |                       dotnet.native.wasm.gz
+|   |                       dotnet.runtime.8.0.12.nkj0o1bhxb.js
+|   |                       dotnet.runtime.8.0.12.nkj0o1bhxb.js.gz
+|   |                       dotnet.runtime.js.map
+|   |                       dotnet.runtime.js.map.gz
+|   |                       icudt_CJK.dat
+|   |                       icudt_CJK.dat.gz
+|   |                       icudt_EFIGS.dat
+|   |                       icudt_EFIGS.dat.gz
+|   |                       icudt_no_CJK.dat
+|   |                       icudt_no_CJK.dat.gz
+|   |                       Macro.Client.pdb
+|   |                       Macro.Client.pdb.gz
+|   |                       Macro.Client.wasm
+|   |                       Macro.Client.wasm.gz
+|   |                       Macro.Shared.pdb
+|   |                       Macro.Shared.pdb.gz
+|   |                       Macro.Shared.wasm
+|   |                       Macro.Shared.wasm.gz
+|   |                       Microsoft.AspNetCore.Authorization.wasm
+|   |                       Microsoft.AspNetCore.Authorization.wasm.gz
+|   |                       Microsoft.AspNetCore.Components.Forms.wasm
+|   |                       Microsoft.AspNetCore.Components.Forms.wasm.gz
+|   |                       Microsoft.AspNetCore.Components.wasm
+|   |                       Microsoft.AspNetCore.Components.wasm.gz
+|   |                       Microsoft.AspNetCore.Components.Web.wasm
+|   |                       Microsoft.AspNetCore.Components.Web.wasm.gz
+|   |                       Microsoft.AspNetCore.Components.WebAssembly.wasm
+|   |                       Microsoft.AspNetCore.Components.WebAssembly.wasm.gz
+|   |                       Microsoft.AspNetCore.Metadata.wasm
+|   |                       Microsoft.AspNetCore.Metadata.wasm.gz
+|   |                       Microsoft.CSharp.wasm
+|   |                       Microsoft.CSharp.wasm.gz
+|   |                       Microsoft.Extensions.Configuration.Abstractions.wasm
+|   |                       Microsoft.Extensions.Configuration.Abstractions.wasm.gz
+|   |                       Microsoft.Extensions.Configuration.Binder.wasm
+|   |                       Microsoft.Extensions.Configuration.Binder.wasm.gz
+|   |                       Microsoft.Extensions.Configuration.FileExtensions.wasm
+|   |                       Microsoft.Extensions.Configuration.FileExtensions.wasm.gz
+|   |                       Microsoft.Extensions.Configuration.Json.wasm
+|   |                       Microsoft.Extensions.Configuration.Json.wasm.gz
+|   |                       Microsoft.Extensions.Configuration.wasm
+|   |                       Microsoft.Extensions.Configuration.wasm.gz
+|   |                       Microsoft.Extensions.DependencyInjection.Abstractions.wasm
+|   |                       Microsoft.Extensions.DependencyInjection.Abstractions.wasm.gz
+|   |                       Microsoft.Extensions.DependencyInjection.wasm
+|   |                       Microsoft.Extensions.DependencyInjection.wasm.gz
+|   |                       Microsoft.Extensions.FileProviders.Abstractions.wasm
+|   |                       Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
+|   |                       Microsoft.Extensions.FileProviders.Physical.wasm
+|   |                       Microsoft.Extensions.FileProviders.Physical.wasm.gz
+|   |                       Microsoft.Extensions.FileSystemGlobbing.wasm
+|   |                       Microsoft.Extensions.FileSystemGlobbing.wasm.gz
+|   |                       Microsoft.Extensions.Logging.Abstractions.wasm
+|   |                       Microsoft.Extensions.Logging.Abstractions.wasm.gz
+|   |                       Microsoft.Extensions.Logging.wasm
+|   |                       Microsoft.Extensions.Logging.wasm.gz
+|   |                       Microsoft.Extensions.Options.wasm
+|   |                       Microsoft.Extensions.Options.wasm.gz
+|   |                       Microsoft.Extensions.Primitives.wasm
+|   |                       Microsoft.Extensions.Primitives.wasm.gz
+|   |                       Microsoft.JSInterop.wasm
+|   |                       Microsoft.JSInterop.wasm.gz
+|   |                       Microsoft.JSInterop.WebAssembly.wasm
+|   |                       Microsoft.JSInterop.WebAssembly.wasm.gz
+|   |                       Microsoft.VisualBasic.Core.wasm
+|   |                       Microsoft.VisualBasic.Core.wasm.gz
+|   |                       Microsoft.VisualBasic.wasm
+|   |                       Microsoft.VisualBasic.wasm.gz
+|   |                       Microsoft.Win32.Primitives.wasm
+|   |                       Microsoft.Win32.Primitives.wasm.gz
+|   |                       Microsoft.Win32.Registry.wasm
+|   |                       Microsoft.Win32.Registry.wasm.gz
+|   |                       mscorlib.wasm
+|   |                       mscorlib.wasm.gz
+|   |                       netstandard.wasm
+|   |                       netstandard.wasm.gz
+|   |                       System.AppContext.wasm
+|   |                       System.AppContext.wasm.gz
+|   |                       System.Buffers.wasm
+|   |                       System.Buffers.wasm.gz
+|   |                       System.Collections.Concurrent.wasm
+|   |                       System.Collections.Concurrent.wasm.gz
+|   |                       System.Collections.Immutable.wasm
+|   |                       System.Collections.Immutable.wasm.gz
+|   |                       System.Collections.NonGeneric.wasm
+|   |                       System.Collections.NonGeneric.wasm.gz
+|   |                       System.Collections.Specialized.wasm
+|   |                       System.Collections.Specialized.wasm.gz
+|   |                       System.Collections.wasm
+|   |                       System.Collections.wasm.gz
+|   |                       System.ComponentModel.Annotations.wasm
+|   |                       System.ComponentModel.Annotations.wasm.gz
+|   |                       System.ComponentModel.DataAnnotations.wasm
+|   |                       System.ComponentModel.DataAnnotations.wasm.gz
+|   |                       System.ComponentModel.EventBasedAsync.wasm
+|   |                       System.ComponentModel.EventBasedAsync.wasm.gz
+|   |                       System.ComponentModel.Primitives.wasm
+|   |                       System.ComponentModel.Primitives.wasm.gz
+|   |                       System.ComponentModel.TypeConverter.wasm
+|   |                       System.ComponentModel.TypeConverter.wasm.gz
+|   |                       System.ComponentModel.wasm
+|   |                       System.ComponentModel.wasm.gz
+|   |                       System.Configuration.wasm
+|   |                       System.Configuration.wasm.gz
+|   |                       System.Console.wasm
+|   |                       System.Console.wasm.gz
+|   |                       System.Core.wasm
+|   |                       System.Core.wasm.gz
+|   |                       System.Data.Common.wasm
+|   |                       System.Data.Common.wasm.gz
+|   |                       System.Data.DataSetExtensions.wasm
+|   |                       System.Data.DataSetExtensions.wasm.gz
+|   |                       System.Data.wasm
+|   |                       System.Data.wasm.gz
+|   |                       System.Diagnostics.Contracts.wasm
+|   |                       System.Diagnostics.Contracts.wasm.gz
+|   |                       System.Diagnostics.Debug.wasm
+|   |                       System.Diagnostics.Debug.wasm.gz
+|   |                       System.Diagnostics.DiagnosticSource.wasm
+|   |                       System.Diagnostics.DiagnosticSource.wasm.gz
+|   |                       System.Diagnostics.FileVersionInfo.wasm
+|   |                       System.Diagnostics.FileVersionInfo.wasm.gz
+|   |                       System.Diagnostics.Process.wasm
+|   |                       System.Diagnostics.Process.wasm.gz
+|   |                       System.Diagnostics.StackTrace.wasm
+|   |                       System.Diagnostics.StackTrace.wasm.gz
+|   |                       System.Diagnostics.TextWriterTraceListener.wasm
+|   |                       System.Diagnostics.TextWriterTraceListener.wasm.gz
+|   |                       System.Diagnostics.Tools.wasm
+|   |                       System.Diagnostics.Tools.wasm.gz
+|   |                       System.Diagnostics.TraceSource.wasm
+|   |                       System.Diagnostics.TraceSource.wasm.gz
+|   |                       System.Diagnostics.Tracing.wasm
+|   |                       System.Diagnostics.Tracing.wasm.gz
+|   |                       System.Drawing.Primitives.wasm
+|   |                       System.Drawing.Primitives.wasm.gz
+|   |                       System.Drawing.wasm
+|   |                       System.Drawing.wasm.gz
+|   |                       System.Dynamic.Runtime.wasm
+|   |                       System.Dynamic.Runtime.wasm.gz
+|   |                       System.Formats.Asn1.wasm
+|   |                       System.Formats.Asn1.wasm.gz
+|   |                       System.Formats.Tar.wasm
+|   |                       System.Formats.Tar.wasm.gz
+|   |                       System.Globalization.Calendars.wasm
+|   |                       System.Globalization.Calendars.wasm.gz
+|   |                       System.Globalization.Extensions.wasm
+|   |                       System.Globalization.Extensions.wasm.gz
+|   |                       System.Globalization.wasm
+|   |                       System.Globalization.wasm.gz
+|   |                       System.IO.Compression.Brotli.wasm
+|   |                       System.IO.Compression.Brotli.wasm.gz
+|   |                       System.IO.Compression.FileSystem.wasm
+|   |                       System.IO.Compression.FileSystem.wasm.gz
+|   |                       System.IO.Compression.wasm
+|   |                       System.IO.Compression.wasm.gz
+|   |                       System.IO.Compression.ZipFile.wasm
+|   |                       System.IO.Compression.ZipFile.wasm.gz
+|   |                       System.IO.FileSystem.AccessControl.wasm
+|   |                       System.IO.FileSystem.AccessControl.wasm.gz
+|   |                       System.IO.FileSystem.DriveInfo.wasm
+|   |                       System.IO.FileSystem.DriveInfo.wasm.gz
+|   |                       System.IO.FileSystem.Primitives.wasm
+|   |                       System.IO.FileSystem.Primitives.wasm.gz
+|   |                       System.IO.FileSystem.wasm
+|   |                       System.IO.FileSystem.wasm.gz
+|   |                       System.IO.FileSystem.Watcher.wasm
+|   |                       System.IO.FileSystem.Watcher.wasm.gz
+|   |                       System.IO.IsolatedStorage.wasm
+|   |                       System.IO.IsolatedStorage.wasm.gz
+|   |                       System.IO.MemoryMappedFiles.wasm
+|   |                       System.IO.MemoryMappedFiles.wasm.gz
+|   |                       System.IO.Pipelines.wasm
+|   |                       System.IO.Pipelines.wasm.gz
+|   |                       System.IO.Pipes.AccessControl.wasm
+|   |                       System.IO.Pipes.AccessControl.wasm.gz
+|   |                       System.IO.Pipes.wasm
+|   |                       System.IO.Pipes.wasm.gz
+|   |                       System.IO.UnmanagedMemoryStream.wasm
+|   |                       System.IO.UnmanagedMemoryStream.wasm.gz
+|   |                       System.IO.wasm
+|   |                       System.IO.wasm.gz
+|   |                       System.Linq.Expressions.wasm
+|   |                       System.Linq.Expressions.wasm.gz
+|   |                       System.Linq.Parallel.wasm
+|   |                       System.Linq.Parallel.wasm.gz
+|   |                       System.Linq.Queryable.wasm
+|   |                       System.Linq.Queryable.wasm.gz
+|   |                       System.Linq.wasm
+|   |                       System.Linq.wasm.gz
+|   |                       System.Memory.wasm
+|   |                       System.Memory.wasm.gz
+|   |                       System.Net.Http.Json.wasm
+|   |                       System.Net.Http.Json.wasm.gz
+|   |                       System.Net.Http.wasm
+|   |                       System.Net.Http.wasm.gz
+|   |                       System.Net.HttpListener.wasm
+|   |                       System.Net.HttpListener.wasm.gz
+|   |                       System.Net.Mail.wasm
+|   |                       System.Net.Mail.wasm.gz
+|   |                       System.Net.NameResolution.wasm
+|   |                       System.Net.NameResolution.wasm.gz
+|   |                       System.Net.NetworkInformation.wasm
+|   |                       System.Net.NetworkInformation.wasm.gz
+|   |                       System.Net.Ping.wasm
+|   |                       System.Net.Ping.wasm.gz
+|   |                       System.Net.Primitives.wasm
+|   |                       System.Net.Primitives.wasm.gz
+|   |                       System.Net.Quic.wasm
+|   |                       System.Net.Quic.wasm.gz
+|   |                       System.Net.Requests.wasm
+|   |                       System.Net.Requests.wasm.gz
+|   |                       System.Net.Security.wasm
+|   |                       System.Net.Security.wasm.gz
+|   |                       System.Net.ServicePoint.wasm
+|   |                       System.Net.ServicePoint.wasm.gz
+|   |                       System.Net.Sockets.wasm
+|   |                       System.Net.Sockets.wasm.gz
+|   |                       System.Net.wasm
+|   |                       System.Net.wasm.gz
+|   |                       System.Net.WebClient.wasm
+|   |                       System.Net.WebClient.wasm.gz
+|   |                       System.Net.WebHeaderCollection.wasm
+|   |                       System.Net.WebHeaderCollection.wasm.gz
+|   |                       System.Net.WebProxy.wasm
+|   |                       System.Net.WebProxy.wasm.gz
+|   |                       System.Net.WebSockets.Client.wasm
+|   |                       System.Net.WebSockets.Client.wasm.gz
+|   |                       System.Net.WebSockets.wasm
+|   |                       System.Net.WebSockets.wasm.gz
+|   |                       System.Numerics.Vectors.wasm
+|   |                       System.Numerics.Vectors.wasm.gz
+|   |                       System.Numerics.wasm
+|   |                       System.Numerics.wasm.gz
+|   |                       System.ObjectModel.wasm
+|   |                       System.ObjectModel.wasm.gz
+|   |                       System.Private.CoreLib.wasm
+|   |                       System.Private.CoreLib.wasm.gz
+|   |                       System.Private.DataContractSerialization.wasm
+|   |                       System.Private.DataContractSerialization.wasm.gz
+|   |                       System.Private.Uri.wasm
+|   |                       System.Private.Uri.wasm.gz
+|   |                       System.Private.Xml.Linq.wasm
+|   |                       System.Private.Xml.Linq.wasm.gz
+|   |                       System.Private.Xml.wasm
+|   |                       System.Private.Xml.wasm.gz
+|   |                       System.Reflection.DispatchProxy.wasm
+|   |                       System.Reflection.DispatchProxy.wasm.gz
+|   |                       System.Reflection.Emit.ILGeneration.wasm
+|   |                       System.Reflection.Emit.ILGeneration.wasm.gz
+|   |                       System.Reflection.Emit.Lightweight.wasm
+|   |                       System.Reflection.Emit.Lightweight.wasm.gz
+|   |                       System.Reflection.Emit.wasm
+|   |                       System.Reflection.Emit.wasm.gz
+|   |                       System.Reflection.Extensions.wasm
+|   |                       System.Reflection.Extensions.wasm.gz
+|   |                       System.Reflection.Metadata.wasm
+|   |                       System.Reflection.Metadata.wasm.gz
+|   |                       System.Reflection.Primitives.wasm
+|   |                       System.Reflection.Primitives.wasm.gz
+|   |                       System.Reflection.TypeExtensions.wasm
+|   |                       System.Reflection.TypeExtensions.wasm.gz
+|   |                       System.Reflection.wasm
+|   |                       System.Reflection.wasm.gz
+|   |                       System.Resources.Reader.wasm
+|   |                       System.Resources.Reader.wasm.gz
+|   |                       System.Resources.ResourceManager.wasm
+|   |                       System.Resources.ResourceManager.wasm.gz
+|   |                       System.Resources.Writer.wasm
+|   |                       System.Resources.Writer.wasm.gz
+|   |                       System.Runtime.CompilerServices.Unsafe.wasm
+|   |                       System.Runtime.CompilerServices.Unsafe.wasm.gz
+|   |                       System.Runtime.CompilerServices.VisualC.wasm
+|   |                       System.Runtime.CompilerServices.VisualC.wasm.gz
+|   |                       System.Runtime.Extensions.wasm
+|   |                       System.Runtime.Extensions.wasm.gz
+|   |                       System.Runtime.Handles.wasm
+|   |                       System.Runtime.Handles.wasm.gz
+|   |                       System.Runtime.InteropServices.JavaScript.wasm
+|   |                       System.Runtime.InteropServices.JavaScript.wasm.gz
+|   |                       System.Runtime.InteropServices.RuntimeInformation.wasm
+|   |                       System.Runtime.InteropServices.RuntimeInformation.wasm.gz
+|   |                       System.Runtime.InteropServices.wasm
+|   |                       System.Runtime.InteropServices.wasm.gz
+|   |                       System.Runtime.Intrinsics.wasm
+|   |                       System.Runtime.Intrinsics.wasm.gz
+|   |                       System.Runtime.Loader.wasm
+|   |                       System.Runtime.Loader.wasm.gz
+|   |                       System.Runtime.Numerics.wasm
+|   |                       System.Runtime.Numerics.wasm.gz
+|   |                       System.Runtime.Serialization.Formatters.wasm
+|   |                       System.Runtime.Serialization.Formatters.wasm.gz
+|   |                       System.Runtime.Serialization.Json.wasm
+|   |                       System.Runtime.Serialization.Json.wasm.gz
+|   |                       System.Runtime.Serialization.Primitives.wasm
+|   |                       System.Runtime.Serialization.Primitives.wasm.gz
+|   |                       System.Runtime.Serialization.wasm
+|   |                       System.Runtime.Serialization.wasm.gz
+|   |                       System.Runtime.Serialization.Xml.wasm
+|   |                       System.Runtime.Serialization.Xml.wasm.gz
+|   |                       System.Runtime.wasm
+|   |                       System.Runtime.wasm.gz
+|   |                       System.Security.AccessControl.wasm
+|   |                       System.Security.AccessControl.wasm.gz
+|   |                       System.Security.Claims.wasm
+|   |                       System.Security.Claims.wasm.gz
+|   |                       System.Security.Cryptography.Algorithms.wasm
+|   |                       System.Security.Cryptography.Algorithms.wasm.gz
+|   |                       System.Security.Cryptography.Cng.wasm
+|   |                       System.Security.Cryptography.Cng.wasm.gz
+|   |                       System.Security.Cryptography.Csp.wasm
+|   |                       System.Security.Cryptography.Csp.wasm.gz
+|   |                       System.Security.Cryptography.Encoding.wasm
+|   |                       System.Security.Cryptography.Encoding.wasm.gz
+|   |                       System.Security.Cryptography.OpenSsl.wasm
+|   |                       System.Security.Cryptography.OpenSsl.wasm.gz
+|   |                       System.Security.Cryptography.Primitives.wasm
+|   |                       System.Security.Cryptography.Primitives.wasm.gz
+|   |                       System.Security.Cryptography.wasm
+|   |                       System.Security.Cryptography.wasm.gz
+|   |                       System.Security.Cryptography.X509Certificates.wasm
+|   |                       System.Security.Cryptography.X509Certificates.wasm.gz
+|   |                       System.Security.Principal.wasm
+|   |                       System.Security.Principal.wasm.gz
+|   |                       System.Security.Principal.Windows.wasm
+|   |                       System.Security.Principal.Windows.wasm.gz
+|   |                       System.Security.SecureString.wasm
+|   |                       System.Security.SecureString.wasm.gz
+|   |                       System.Security.wasm
+|   |                       System.Security.wasm.gz
+|   |                       System.ServiceModel.Web.wasm
+|   |                       System.ServiceModel.Web.wasm.gz
+|   |                       System.ServiceProcess.wasm
+|   |                       System.ServiceProcess.wasm.gz
+|   |                       System.Text.Encoding.CodePages.wasm
+|   |                       System.Text.Encoding.CodePages.wasm.gz
+|   |                       System.Text.Encoding.Extensions.wasm
+|   |                       System.Text.Encoding.Extensions.wasm.gz
+|   |                       System.Text.Encoding.wasm
+|   |                       System.Text.Encoding.wasm.gz
+|   |                       System.Text.Encodings.Web.wasm
+|   |                       System.Text.Encodings.Web.wasm.gz
+|   |                       System.Text.Json.wasm
+|   |                       System.Text.Json.wasm.gz
+|   |                       System.Text.RegularExpressions.wasm
+|   |                       System.Text.RegularExpressions.wasm.gz
+|   |                       System.Threading.Channels.wasm
+|   |                       System.Threading.Channels.wasm.gz
+|   |                       System.Threading.Overlapped.wasm
+|   |                       System.Threading.Overlapped.wasm.gz
+|   |                       System.Threading.Tasks.Dataflow.wasm
+|   |                       System.Threading.Tasks.Dataflow.wasm.gz
+|   |                       System.Threading.Tasks.Extensions.wasm
+|   |                       System.Threading.Tasks.Extensions.wasm.gz
+|   |                       System.Threading.Tasks.Parallel.wasm
+|   |                       System.Threading.Tasks.Parallel.wasm.gz
+|   |                       System.Threading.Tasks.wasm
+|   |                       System.Threading.Tasks.wasm.gz
+|   |                       System.Threading.Thread.wasm
+|   |                       System.Threading.Thread.wasm.gz
+|   |                       System.Threading.ThreadPool.wasm
+|   |                       System.Threading.ThreadPool.wasm.gz
+|   |                       System.Threading.Timer.wasm
+|   |                       System.Threading.Timer.wasm.gz
+|   |                       System.Threading.wasm
+|   |                       System.Threading.wasm.gz
+|   |                       System.Transactions.Local.wasm
+|   |                       System.Transactions.Local.wasm.gz
+|   |                       System.Transactions.wasm
+|   |                       System.Transactions.wasm.gz
+|   |                       System.ValueTuple.wasm
+|   |                       System.ValueTuple.wasm.gz
+|   |                       System.wasm
+|   |                       System.wasm.gz
+|   |                       System.Web.HttpUtility.wasm
+|   |                       System.Web.HttpUtility.wasm.gz
+|   |                       System.Web.wasm
+|   |                       System.Web.wasm.gz
+|   |                       System.Windows.wasm
+|   |                       System.Windows.wasm.gz
+|   |                       System.Xml.Linq.wasm
+|   |                       System.Xml.Linq.wasm.gz
+|   |                       System.Xml.ReaderWriter.wasm
+|   |                       System.Xml.ReaderWriter.wasm.gz
+|   |                       System.Xml.Serialization.wasm
+|   |                       System.Xml.Serialization.wasm.gz
+|   |                       System.Xml.wasm
+|   |                       System.Xml.wasm.gz
+|   |                       System.Xml.XDocument.wasm
+|   |                       System.Xml.XDocument.wasm.gz
+|   |                       System.Xml.XmlDocument.wasm
+|   |                       System.Xml.XmlDocument.wasm.gz
+|   |                       System.Xml.XmlSerializer.wasm
+|   |                       System.Xml.XmlSerializer.wasm.gz
+|   |                       System.Xml.XPath.wasm
+|   |                       System.Xml.XPath.wasm.gz
+|   |                       System.Xml.XPath.XDocument.wasm
+|   |                       System.Xml.XPath.XDocument.wasm.gz
+|   |                       tailwindcss.wasm
+|   |                       tailwindcss.wasm.gz
+|   |                       WindowsBase.wasm
+|   |                       WindowsBase.wasm.gz
+|   |                       
+|   +---Configuration
+|   +---Layout
+|   |       MainLayout.razor
+|   |       MainLayout.razor.css
+|   |       NavMenu.razor
+|   |       NavMenu.razor.css
+|   |       
+|   +---node_modules
+|   |   |   .package-lock.json
+|   |   |   
+|   |   +---.bin
+|   |   |       autoprefixer
+|   |   |       autoprefixer.cmd
+|   |   |       autoprefixer.ps1
+|   |   |       browserslist
+|   |   |       browserslist.cmd
+|   |   |       browserslist.ps1
+|   |   |       nanoid
+|   |   |       nanoid.cmd
+|   |   |       nanoid.ps1
+|   |   |       update-browserslist-db
+|   |   |       update-browserslist-db.cmd
+|   |   |       update-browserslist-db.ps1
+|   |   |       
+|   |   +---autoprefixer
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       autoprefixer
+|   |   |   |       
+|   |   |   +---data
+|   |   |   |       prefixes.js
+|   |   |   |       
+|   |   |   \---lib
+|   |   |       |   at-rule.js
+|   |   |       |   autoprefixer.d.ts
+|   |   |       |   autoprefixer.js
+|   |   |       |   brackets.js
+|   |   |       |   browsers.js
+|   |   |       |   declaration.js
+|   |   |       |   info.js
+|   |   |       |   old-selector.js
+|   |   |       |   old-value.js
+|   |   |       |   prefixer.js
+|   |   |       |   prefixes.js
+|   |   |       |   processor.js
+|   |   |       |   resolution.js
+|   |   |       |   selector.js
+|   |   |       |   supports.js
+|   |   |       |   transition.js
+|   |   |       |   utils.js
+|   |   |       |   value.js
+|   |   |       |   vendor.js
+|   |   |       |   
+|   |   |       \---hacks
+|   |   |               align-content.js
+|   |   |               align-items.js
+|   |   |               align-self.js
+|   |   |               animation.js
+|   |   |               appearance.js
+|   |   |               autofill.js
+|   |   |               backdrop-filter.js
+|   |   |               background-clip.js
+|   |   |               background-size.js
+|   |   |               block-logical.js
+|   |   |               border-image.js
+|   |   |               border-radius.js
+|   |   |               break-props.js
+|   |   |               cross-fade.js
+|   |   |               display-flex.js
+|   |   |               display-grid.js
+|   |   |               file-selector-button.js
+|   |   |               filter-value.js
+|   |   |               filter.js
+|   |   |               flex-basis.js
+|   |   |               flex-direction.js
+|   |   |               flex-flow.js
+|   |   |               flex-grow.js
+|   |   |               flex-shrink.js
+|   |   |               flex-spec.js
+|   |   |               flex-wrap.js
+|   |   |               flex.js
+|   |   |               fullscreen.js
+|   |   |               gradient.js
+|   |   |               grid-area.js
+|   |   |               grid-column-align.js
+|   |   |               grid-end.js
+|   |   |               grid-row-align.js
+|   |   |               grid-row-column.js
+|   |   |               grid-rows-columns.js
+|   |   |               grid-start.js
+|   |   |               grid-template-areas.js
+|   |   |               grid-template.js
+|   |   |               grid-utils.js
+|   |   |               image-rendering.js
+|   |   |               image-set.js
+|   |   |               inline-logical.js
+|   |   |               intrinsic.js
+|   |   |               justify-content.js
+|   |   |               mask-border.js
+|   |   |               mask-composite.js
+|   |   |               order.js
+|   |   |               overscroll-behavior.js
+|   |   |               pixelated.js
+|   |   |               place-self.js
+|   |   |               placeholder-shown.js
+|   |   |               placeholder.js
+|   |   |               print-color-adjust.js
+|   |   |               text-decoration-skip-ink.js
+|   |   |               text-decoration.js
+|   |   |               text-emphasis-position.js
+|   |   |               transform-decl.js
+|   |   |               user-select.js
+|   |   |               writing-mode.js
+|   |   |               
+|   |   +---browserslist
+|   |   |       browser.js
+|   |   |       cli.js
+|   |   |       error.d.ts
+|   |   |       error.js
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       node.js
+|   |   |       package.json
+|   |   |       parse.js
+|   |   |       README.md
+|   |   |       
+|   |   +---caniuse-lite
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---data
+|   |   |   |   |   agents.js
+|   |   |   |   |   browsers.js
+|   |   |   |   |   browserVersions.js
+|   |   |   |   |   features.js
+|   |   |   |   |   
+|   |   |   |   +---features
+|   |   |   |   |       aac.js
+|   |   |   |   |       abortcontroller.js
+|   |   |   |   |       ac3-ec3.js
+|   |   |   |   |       accelerometer.js
+|   |   |   |   |       addeventlistener.js
+|   |   |   |   |       alternate-stylesheet.js
+|   |   |   |   |       ambient-light.js
+|   |   |   |   |       apng.js
+|   |   |   |   |       array-find-index.js
+|   |   |   |   |       array-find.js
+|   |   |   |   |       array-flat.js
+|   |   |   |   |       array-includes.js
+|   |   |   |   |       arrow-functions.js
+|   |   |   |   |       asmjs.js
+|   |   |   |   |       async-clipboard.js
+|   |   |   |   |       async-functions.js
+|   |   |   |   |       atob-btoa.js
+|   |   |   |   |       audio-api.js
+|   |   |   |   |       audio.js
+|   |   |   |   |       audiotracks.js
+|   |   |   |   |       autofocus.js
+|   |   |   |   |       auxclick.js
+|   |   |   |   |       av1.js
+|   |   |   |   |       avif.js
+|   |   |   |   |       background-attachment.js
+|   |   |   |   |       background-clip-text.js
+|   |   |   |   |       background-img-opts.js
+|   |   |   |   |       background-position-x-y.js
+|   |   |   |   |       background-repeat-round-space.js
+|   |   |   |   |       background-sync.js
+|   |   |   |   |       battery-status.js
+|   |   |   |   |       beacon.js
+|   |   |   |   |       beforeafterprint.js
+|   |   |   |   |       bigint.js
+|   |   |   |   |       blobbuilder.js
+|   |   |   |   |       bloburls.js
+|   |   |   |   |       border-image.js
+|   |   |   |   |       border-radius.js
+|   |   |   |   |       broadcastchannel.js
+|   |   |   |   |       brotli.js
+|   |   |   |   |       calc.js
+|   |   |   |   |       canvas-blending.js
+|   |   |   |   |       canvas-text.js
+|   |   |   |   |       canvas.js
+|   |   |   |   |       ch-unit.js
+|   |   |   |   |       chacha20-poly1305.js
+|   |   |   |   |       channel-messaging.js
+|   |   |   |   |       childnode-remove.js
+|   |   |   |   |       classlist.js
+|   |   |   |   |       client-hints-dpr-width-viewport.js
+|   |   |   |   |       clipboard.js
+|   |   |   |   |       colr-v1.js
+|   |   |   |   |       colr.js
+|   |   |   |   |       comparedocumentposition.js
+|   |   |   |   |       console-basic.js
+|   |   |   |   |       console-time.js
+|   |   |   |   |       const.js
+|   |   |   |   |       constraint-validation.js
+|   |   |   |   |       contenteditable.js
+|   |   |   |   |       contentsecuritypolicy.js
+|   |   |   |   |       contentsecuritypolicy2.js
+|   |   |   |   |       cookie-store-api.js
+|   |   |   |   |       cors.js
+|   |   |   |   |       createimagebitmap.js
+|   |   |   |   |       credential-management.js
+|   |   |   |   |       cryptography.js
+|   |   |   |   |       css-all.js
+|   |   |   |   |       css-anchor-positioning.js
+|   |   |   |   |       css-animation.js
+|   |   |   |   |       css-any-link.js
+|   |   |   |   |       css-appearance.js
+|   |   |   |   |       css-at-counter-style.js
+|   |   |   |   |       css-autofill.js
+|   |   |   |   |       css-backdrop-filter.js
+|   |   |   |   |       css-background-offsets.js
+|   |   |   |   |       css-backgroundblendmode.js
+|   |   |   |   |       css-boxdecorationbreak.js
+|   |   |   |   |       css-boxshadow.js
+|   |   |   |   |       css-canvas.js
+|   |   |   |   |       css-caret-color.js
+|   |   |   |   |       css-cascade-layers.js
+|   |   |   |   |       css-cascade-scope.js
+|   |   |   |   |       css-case-insensitive.js
+|   |   |   |   |       css-clip-path.js
+|   |   |   |   |       css-color-adjust.js
+|   |   |   |   |       css-color-function.js
+|   |   |   |   |       css-conic-gradients.js
+|   |   |   |   |       css-container-queries-style.js
+|   |   |   |   |       css-container-queries.js
+|   |   |   |   |       css-container-query-units.js
+|   |   |   |   |       css-containment.js
+|   |   |   |   |       css-content-visibility.js
+|   |   |   |   |       css-counters.js
+|   |   |   |   |       css-crisp-edges.js
+|   |   |   |   |       css-cross-fade.js
+|   |   |   |   |       css-default-pseudo.js
+|   |   |   |   |       css-descendant-gtgt.js
+|   |   |   |   |       css-deviceadaptation.js
+|   |   |   |   |       css-dir-pseudo.js
+|   |   |   |   |       css-display-contents.js
+|   |   |   |   |       css-element-function.js
+|   |   |   |   |       css-env-function.js
+|   |   |   |   |       css-exclusions.js
+|   |   |   |   |       css-featurequeries.js
+|   |   |   |   |       css-file-selector-button.js
+|   |   |   |   |       css-filter-function.js
+|   |   |   |   |       css-filters.js
+|   |   |   |   |       css-first-letter.js
+|   |   |   |   |       css-first-line.js
+|   |   |   |   |       css-fixed.js
+|   |   |   |   |       css-focus-visible.js
+|   |   |   |   |       css-focus-within.js
+|   |   |   |   |       css-font-palette.js
+|   |   |   |   |       css-font-rendering-controls.js
+|   |   |   |   |       css-font-stretch.js
+|   |   |   |   |       css-gencontent.js
+|   |   |   |   |       css-gradients.js
+|   |   |   |   |       css-grid-animation.js
+|   |   |   |   |       css-grid.js
+|   |   |   |   |       css-hanging-punctuation.js
+|   |   |   |   |       css-has.js
+|   |   |   |   |       css-hyphens.js
+|   |   |   |   |       css-image-orientation.js
+|   |   |   |   |       css-image-set.js
+|   |   |   |   |       css-in-out-of-range.js
+|   |   |   |   |       css-indeterminate-pseudo.js
+|   |   |   |   |       css-initial-letter.js
+|   |   |   |   |       css-initial-value.js
+|   |   |   |   |       css-lch-lab.js
+|   |   |   |   |       css-letter-spacing.js
+|   |   |   |   |       css-line-clamp.js
+|   |   |   |   |       css-logical-props.js
+|   |   |   |   |       css-marker-pseudo.js
+|   |   |   |   |       css-masks.js
+|   |   |   |   |       css-matches-pseudo.js
+|   |   |   |   |       css-math-functions.js
+|   |   |   |   |       css-media-interaction.js
+|   |   |   |   |       css-media-range-syntax.js
+|   |   |   |   |       css-media-resolution.js
+|   |   |   |   |       css-media-scripting.js
+|   |   |   |   |       css-mediaqueries.js
+|   |   |   |   |       css-mixblendmode.js
+|   |   |   |   |       css-module-scripts.js
+|   |   |   |   |       css-motion-paths.js
+|   |   |   |   |       css-namespaces.js
+|   |   |   |   |       css-nesting.js
+|   |   |   |   |       css-not-sel-list.js
+|   |   |   |   |       css-nth-child-of.js
+|   |   |   |   |       css-opacity.js
+|   |   |   |   |       css-optional-pseudo.js
+|   |   |   |   |       css-overflow-anchor.js
+|   |   |   |   |       css-overflow-overlay.js
+|   |   |   |   |       css-overflow.js
+|   |   |   |   |       css-overscroll-behavior.js
+|   |   |   |   |       css-page-break.js
+|   |   |   |   |       css-paged-media.js
+|   |   |   |   |       css-paint-api.js
+|   |   |   |   |       css-placeholder-shown.js
+|   |   |   |   |       css-placeholder.js
+|   |   |   |   |       css-print-color-adjust.js
+|   |   |   |   |       css-read-only-write.js
+|   |   |   |   |       css-rebeccapurple.js
+|   |   |   |   |       css-reflections.js
+|   |   |   |   |       css-regions.js
+|   |   |   |   |       css-relative-colors.js
+|   |   |   |   |       css-repeating-gradients.js
+|   |   |   |   |       css-resize.js
+|   |   |   |   |       css-revert-value.js
+|   |   |   |   |       css-rrggbbaa.js
+|   |   |   |   |       css-scroll-behavior.js
+|   |   |   |   |       css-scrollbar.js
+|   |   |   |   |       css-sel2.js
+|   |   |   |   |       css-sel3.js
+|   |   |   |   |       css-selection.js
+|   |   |   |   |       css-shapes.js
+|   |   |   |   |       css-snappoints.js
+|   |   |   |   |       css-sticky.js
+|   |   |   |   |       css-subgrid.js
+|   |   |   |   |       css-supports-api.js
+|   |   |   |   |       css-table.js
+|   |   |   |   |       css-text-align-last.js
+|   |   |   |   |       css-text-box-trim.js
+|   |   |   |   |       css-text-indent.js
+|   |   |   |   |       css-text-justify.js
+|   |   |   |   |       css-text-orientation.js
+|   |   |   |   |       css-text-spacing.js
+|   |   |   |   |       css-text-wrap-balance.js
+|   |   |   |   |       css-textshadow.js
+|   |   |   |   |       css-touch-action.js
+|   |   |   |   |       css-transitions.js
+|   |   |   |   |       css-unicode-bidi.js
+|   |   |   |   |       css-unset-value.js
+|   |   |   |   |       css-variables.js
+|   |   |   |   |       css-when-else.js
+|   |   |   |   |       css-widows-orphans.js
+|   |   |   |   |       css-width-stretch.js
+|   |   |   |   |       css-writing-mode.js
+|   |   |   |   |       css-zoom.js
+|   |   |   |   |       css3-attr.js
+|   |   |   |   |       css3-boxsizing.js
+|   |   |   |   |       css3-colors.js
+|   |   |   |   |       css3-cursors-grab.js
+|   |   |   |   |       css3-cursors-newer.js
+|   |   |   |   |       css3-cursors.js
+|   |   |   |   |       css3-tabsize.js
+|   |   |   |   |       currentcolor.js
+|   |   |   |   |       custom-elements.js
+|   |   |   |   |       custom-elementsv1.js
+|   |   |   |   |       customevent.js
+|   |   |   |   |       datalist.js
+|   |   |   |   |       dataset.js
+|   |   |   |   |       datauri.js
+|   |   |   |   |       date-tolocaledatestring.js
+|   |   |   |   |       declarative-shadow-dom.js
+|   |   |   |   |       decorators.js
+|   |   |   |   |       details.js
+|   |   |   |   |       deviceorientation.js
+|   |   |   |   |       devicepixelratio.js
+|   |   |   |   |       dialog.js
+|   |   |   |   |       dispatchevent.js
+|   |   |   |   |       dnssec.js
+|   |   |   |   |       do-not-track.js
+|   |   |   |   |       document-currentscript.js
+|   |   |   |   |       document-evaluate-xpath.js
+|   |   |   |   |       document-execcommand.js
+|   |   |   |   |       document-policy.js
+|   |   |   |   |       document-scrollingelement.js
+|   |   |   |   |       documenthead.js
+|   |   |   |   |       dom-manip-convenience.js
+|   |   |   |   |       dom-range.js
+|   |   |   |   |       domcontentloaded.js
+|   |   |   |   |       dommatrix.js
+|   |   |   |   |       download.js
+|   |   |   |   |       dragndrop.js
+|   |   |   |   |       element-closest.js
+|   |   |   |   |       element-from-point.js
+|   |   |   |   |       element-scroll-methods.js
+|   |   |   |   |       eme.js
+|   |   |   |   |       eot.js
+|   |   |   |   |       es5.js
+|   |   |   |   |       es6-class.js
+|   |   |   |   |       es6-generators.js
+|   |   |   |   |       es6-module-dynamic-import.js
+|   |   |   |   |       es6-module.js
+|   |   |   |   |       es6-number.js
+|   |   |   |   |       es6-string-includes.js
+|   |   |   |   |       es6.js
+|   |   |   |   |       eventsource.js
+|   |   |   |   |       extended-system-fonts.js
+|   |   |   |   |       feature-policy.js
+|   |   |   |   |       fetch.js
+|   |   |   |   |       fieldset-disabled.js
+|   |   |   |   |       fileapi.js
+|   |   |   |   |       filereader.js
+|   |   |   |   |       filereadersync.js
+|   |   |   |   |       filesystem.js
+|   |   |   |   |       flac.js
+|   |   |   |   |       flexbox-gap.js
+|   |   |   |   |       flexbox.js
+|   |   |   |   |       flow-root.js
+|   |   |   |   |       focusin-focusout-events.js
+|   |   |   |   |       font-family-system-ui.js
+|   |   |   |   |       font-feature.js
+|   |   |   |   |       font-kerning.js
+|   |   |   |   |       font-loading.js
+|   |   |   |   |       font-size-adjust.js
+|   |   |   |   |       font-smooth.js
+|   |   |   |   |       font-unicode-range.js
+|   |   |   |   |       font-variant-alternates.js
+|   |   |   |   |       font-variant-numeric.js
+|   |   |   |   |       fontface.js
+|   |   |   |   |       form-attribute.js
+|   |   |   |   |       form-submit-attributes.js
+|   |   |   |   |       form-validation.js
+|   |   |   |   |       forms.js
+|   |   |   |   |       fullscreen.js
+|   |   |   |   |       gamepad.js
+|   |   |   |   |       geolocation.js
+|   |   |   |   |       getboundingclientrect.js
+|   |   |   |   |       getcomputedstyle.js
+|   |   |   |   |       getelementsbyclassname.js
+|   |   |   |   |       getrandomvalues.js
+|   |   |   |   |       gyroscope.js
+|   |   |   |   |       hardwareconcurrency.js
+|   |   |   |   |       hashchange.js
+|   |   |   |   |       heif.js
+|   |   |   |   |       hevc.js
+|   |   |   |   |       hidden.js
+|   |   |   |   |       high-resolution-time.js
+|   |   |   |   |       history.js
+|   |   |   |   |       html-media-capture.js
+|   |   |   |   |       html5semantic.js
+|   |   |   |   |       http-live-streaming.js
+|   |   |   |   |       http2.js
+|   |   |   |   |       http3.js
+|   |   |   |   |       iframe-sandbox.js
+|   |   |   |   |       iframe-seamless.js
+|   |   |   |   |       iframe-srcdoc.js
+|   |   |   |   |       imagecapture.js
+|   |   |   |   |       ime.js
+|   |   |   |   |       img-naturalwidth-naturalheight.js
+|   |   |   |   |       import-maps.js
+|   |   |   |   |       imports.js
+|   |   |   |   |       indeterminate-checkbox.js
+|   |   |   |   |       indexeddb.js
+|   |   |   |   |       indexeddb2.js
+|   |   |   |   |       inline-block.js
+|   |   |   |   |       innertext.js
+|   |   |   |   |       input-autocomplete-onoff.js
+|   |   |   |   |       input-color.js
+|   |   |   |   |       input-datetime.js
+|   |   |   |   |       input-email-tel-url.js
+|   |   |   |   |       input-event.js
+|   |   |   |   |       input-file-accept.js
+|   |   |   |   |       input-file-directory.js
+|   |   |   |   |       input-file-multiple.js
+|   |   |   |   |       input-inputmode.js
+|   |   |   |   |       input-minlength.js
+|   |   |   |   |       input-number.js
+|   |   |   |   |       input-pattern.js
+|   |   |   |   |       input-placeholder.js
+|   |   |   |   |       input-range.js
+|   |   |   |   |       input-search.js
+|   |   |   |   |       input-selection.js
+|   |   |   |   |       insert-adjacent.js
+|   |   |   |   |       insertadjacenthtml.js
+|   |   |   |   |       internationalization.js
+|   |   |   |   |       intersectionobserver-v2.js
+|   |   |   |   |       intersectionobserver.js
+|   |   |   |   |       intl-pluralrules.js
+|   |   |   |   |       intrinsic-width.js
+|   |   |   |   |       jpeg2000.js
+|   |   |   |   |       jpegxl.js
+|   |   |   |   |       jpegxr.js
+|   |   |   |   |       js-regexp-lookbehind.js
+|   |   |   |   |       json.js
+|   |   |   |   |       justify-content-space-evenly.js
+|   |   |   |   |       kerning-pairs-ligatures.js
+|   |   |   |   |       keyboardevent-charcode.js
+|   |   |   |   |       keyboardevent-code.js
+|   |   |   |   |       keyboardevent-getmodifierstate.js
+|   |   |   |   |       keyboardevent-key.js
+|   |   |   |   |       keyboardevent-location.js
+|   |   |   |   |       keyboardevent-which.js
+|   |   |   |   |       lazyload.js
+|   |   |   |   |       let.js
+|   |   |   |   |       link-icon-png.js
+|   |   |   |   |       link-icon-svg.js
+|   |   |   |   |       link-rel-dns-prefetch.js
+|   |   |   |   |       link-rel-modulepreload.js
+|   |   |   |   |       link-rel-preconnect.js
+|   |   |   |   |       link-rel-prefetch.js
+|   |   |   |   |       link-rel-preload.js
+|   |   |   |   |       link-rel-prerender.js
+|   |   |   |   |       loading-lazy-attr.js
+|   |   |   |   |       localecompare.js
+|   |   |   |   |       magnetometer.js
+|   |   |   |   |       matchesselector.js
+|   |   |   |   |       matchmedia.js
+|   |   |   |   |       mathml.js
+|   |   |   |   |       maxlength.js
+|   |   |   |   |       mdn-css-backdrop-pseudo-element.js
+|   |   |   |   |       mdn-css-unicode-bidi-isolate-override.js
+|   |   |   |   |       mdn-css-unicode-bidi-isolate.js
+|   |   |   |   |       mdn-css-unicode-bidi-plaintext.js
+|   |   |   |   |       mdn-text-decoration-color.js
+|   |   |   |   |       mdn-text-decoration-line.js
+|   |   |   |   |       mdn-text-decoration-shorthand.js
+|   |   |   |   |       mdn-text-decoration-style.js
+|   |   |   |   |       media-fragments.js
+|   |   |   |   |       mediacapture-fromelement.js
+|   |   |   |   |       mediarecorder.js
+|   |   |   |   |       mediasource.js
+|   |   |   |   |       menu.js
+|   |   |   |   |       meta-theme-color.js
+|   |   |   |   |       meter.js
+|   |   |   |   |       midi.js
+|   |   |   |   |       minmaxwh.js
+|   |   |   |   |       mp3.js
+|   |   |   |   |       mpeg-dash.js
+|   |   |   |   |       mpeg4.js
+|   |   |   |   |       multibackgrounds.js
+|   |   |   |   |       multicolumn.js
+|   |   |   |   |       mutation-events.js
+|   |   |   |   |       mutationobserver.js
+|   |   |   |   |       namevalue-storage.js
+|   |   |   |   |       native-filesystem-api.js
+|   |   |   |   |       nav-timing.js
+|   |   |   |   |       netinfo.js
+|   |   |   |   |       notifications.js
+|   |   |   |   |       object-entries.js
+|   |   |   |   |       object-fit.js
+|   |   |   |   |       object-observe.js
+|   |   |   |   |       object-values.js
+|   |   |   |   |       objectrtc.js
+|   |   |   |   |       offline-apps.js
+|   |   |   |   |       offscreencanvas.js
+|   |   |   |   |       ogg-vorbis.js
+|   |   |   |   |       ogv.js
+|   |   |   |   |       ol-reversed.js
+|   |   |   |   |       once-event-listener.js
+|   |   |   |   |       online-status.js
+|   |   |   |   |       opus.js
+|   |   |   |   |       orientation-sensor.js
+|   |   |   |   |       outline.js
+|   |   |   |   |       pad-start-end.js
+|   |   |   |   |       page-transition-events.js
+|   |   |   |   |       pagevisibility.js
+|   |   |   |   |       passive-event-listener.js
+|   |   |   |   |       passkeys.js
+|   |   |   |   |       passwordrules.js
+|   |   |   |   |       path2d.js
+|   |   |   |   |       payment-request.js
+|   |   |   |   |       pdf-viewer.js
+|   |   |   |   |       permissions-api.js
+|   |   |   |   |       permissions-policy.js
+|   |   |   |   |       picture-in-picture.js
+|   |   |   |   |       picture.js
+|   |   |   |   |       ping.js
+|   |   |   |   |       png-alpha.js
+|   |   |   |   |       pointer-events.js
+|   |   |   |   |       pointer.js
+|   |   |   |   |       pointerlock.js
+|   |   |   |   |       portals.js
+|   |   |   |   |       prefers-color-scheme.js
+|   |   |   |   |       prefers-reduced-motion.js
+|   |   |   |   |       progress.js
+|   |   |   |   |       promise-finally.js
+|   |   |   |   |       promises.js
+|   |   |   |   |       proximity.js
+|   |   |   |   |       proxy.js
+|   |   |   |   |       publickeypinning.js
+|   |   |   |   |       push-api.js
+|   |   |   |   |       queryselector.js
+|   |   |   |   |       readonly-attr.js
+|   |   |   |   |       referrer-policy.js
+|   |   |   |   |       registerprotocolhandler.js
+|   |   |   |   |       rel-noopener.js
+|   |   |   |   |       rel-noreferrer.js
+|   |   |   |   |       rellist.js
+|   |   |   |   |       rem.js
+|   |   |   |   |       requestanimationframe.js
+|   |   |   |   |       requestidlecallback.js
+|   |   |   |   |       resizeobserver.js
+|   |   |   |   |       resource-timing.js
+|   |   |   |   |       rest-parameters.js
+|   |   |   |   |       rtcpeerconnection.js
+|   |   |   |   |       ruby.js
+|   |   |   |   |       run-in.js
+|   |   |   |   |       same-site-cookie-attribute.js
+|   |   |   |   |       screen-orientation.js
+|   |   |   |   |       script-async.js
+|   |   |   |   |       script-defer.js
+|   |   |   |   |       scrollintoview.js
+|   |   |   |   |       scrollintoviewifneeded.js
+|   |   |   |   |       sdch.js
+|   |   |   |   |       selection-api.js
+|   |   |   |   |       selectlist.js
+|   |   |   |   |       server-timing.js
+|   |   |   |   |       serviceworkers.js
+|   |   |   |   |       setimmediate.js
+|   |   |   |   |       shadowdom.js
+|   |   |   |   |       shadowdomv1.js
+|   |   |   |   |       sharedarraybuffer.js
+|   |   |   |   |       sharedworkers.js
+|   |   |   |   |       sni.js
+|   |   |   |   |       spdy.js
+|   |   |   |   |       speech-recognition.js
+|   |   |   |   |       speech-synthesis.js
+|   |   |   |   |       spellcheck-attribute.js
+|   |   |   |   |       sql-storage.js
+|   |   |   |   |       srcset.js
+|   |   |   |   |       stream.js
+|   |   |   |   |       streams.js
+|   |   |   |   |       stricttransportsecurity.js
+|   |   |   |   |       style-scoped.js
+|   |   |   |   |       subresource-bundling.js
+|   |   |   |   |       subresource-integrity.js
+|   |   |   |   |       svg-css.js
+|   |   |   |   |       svg-filters.js
+|   |   |   |   |       svg-fonts.js
+|   |   |   |   |       svg-fragment.js
+|   |   |   |   |       svg-html.js
+|   |   |   |   |       svg-html5.js
+|   |   |   |   |       svg-img.js
+|   |   |   |   |       svg-smil.js
+|   |   |   |   |       svg.js
+|   |   |   |   |       sxg.js
+|   |   |   |   |       tabindex-attr.js
+|   |   |   |   |       template-literals.js
+|   |   |   |   |       template.js
+|   |   |   |   |       temporal.js
+|   |   |   |   |       testfeat.js
+|   |   |   |   |       text-decoration.js
+|   |   |   |   |       text-emphasis.js
+|   |   |   |   |       text-overflow.js
+|   |   |   |   |       text-size-adjust.js
+|   |   |   |   |       text-stroke.js
+|   |   |   |   |       textcontent.js
+|   |   |   |   |       textencoder.js
+|   |   |   |   |       tls1-1.js
+|   |   |   |   |       tls1-2.js
+|   |   |   |   |       tls1-3.js
+|   |   |   |   |       touch.js
+|   |   |   |   |       transforms2d.js
+|   |   |   |   |       transforms3d.js
+|   |   |   |   |       trusted-types.js
+|   |   |   |   |       ttf.js
+|   |   |   |   |       typedarrays.js
+|   |   |   |   |       u2f.js
+|   |   |   |   |       unhandledrejection.js
+|   |   |   |   |       upgradeinsecurerequests.js
+|   |   |   |   |       url-scroll-to-text-fragment.js
+|   |   |   |   |       url.js
+|   |   |   |   |       urlsearchparams.js
+|   |   |   |   |       use-strict.js
+|   |   |   |   |       user-select-none.js
+|   |   |   |   |       user-timing.js
+|   |   |   |   |       variable-fonts.js
+|   |   |   |   |       vector-effect.js
+|   |   |   |   |       vibration.js
+|   |   |   |   |       video.js
+|   |   |   |   |       videotracks.js
+|   |   |   |   |       view-transitions.js
+|   |   |   |   |       viewport-unit-variants.js
+|   |   |   |   |       viewport-units.js
+|   |   |   |   |       wai-aria.js
+|   |   |   |   |       wake-lock.js
+|   |   |   |   |       wasm-bigint.js
+|   |   |   |   |       wasm-bulk-memory.js
+|   |   |   |   |       wasm-extended-const.js
+|   |   |   |   |       wasm-gc.js
+|   |   |   |   |       wasm-multi-memory.js
+|   |   |   |   |       wasm-multi-value.js
+|   |   |   |   |       wasm-mutable-globals.js
+|   |   |   |   |       wasm-nontrapping-fptoint.js
+|   |   |   |   |       wasm-reference-types.js
+|   |   |   |   |       wasm-relaxed-simd.js
+|   |   |   |   |       wasm-signext.js
+|   |   |   |   |       wasm-simd.js
+|   |   |   |   |       wasm-tail-calls.js
+|   |   |   |   |       wasm-threads.js
+|   |   |   |   |       wasm.js
+|   |   |   |   |       wav.js
+|   |   |   |   |       wbr-element.js
+|   |   |   |   |       web-animation.js
+|   |   |   |   |       web-app-manifest.js
+|   |   |   |   |       web-bluetooth.js
+|   |   |   |   |       web-serial.js
+|   |   |   |   |       web-share.js
+|   |   |   |   |       webauthn.js
+|   |   |   |   |       webcodecs.js
+|   |   |   |   |       webgl.js
+|   |   |   |   |       webgl2.js
+|   |   |   |   |       webgpu.js
+|   |   |   |   |       webhid.js
+|   |   |   |   |       webkit-user-drag.js
+|   |   |   |   |       webm.js
+|   |   |   |   |       webnfc.js
+|   |   |   |   |       webp.js
+|   |   |   |   |       websockets.js
+|   |   |   |   |       webtransport.js
+|   |   |   |   |       webusb.js
+|   |   |   |   |       webvr.js
+|   |   |   |   |       webvtt.js
+|   |   |   |   |       webworkers.js
+|   |   |   |   |       webxr.js
+|   |   |   |   |       will-change.js
+|   |   |   |   |       woff.js
+|   |   |   |   |       woff2.js
+|   |   |   |   |       word-break.js
+|   |   |   |   |       wordwrap.js
+|   |   |   |   |       x-doc-messaging.js
+|   |   |   |   |       x-frame-options.js
+|   |   |   |   |       xhr2.js
+|   |   |   |   |       xhtml.js
+|   |   |   |   |       xhtmlsmil.js
+|   |   |   |   |       xml-serializer.js
+|   |   |   |   |       zstd.js
+|   |   |   |   |       
+|   |   |   |   \---regions
+|   |   |   |           AD.js
+|   |   |   |           AE.js
+|   |   |   |           AF.js
+|   |   |   |           AG.js
+|   |   |   |           AI.js
+|   |   |   |           AL.js
+|   |   |   |           alt-af.js
+|   |   |   |           alt-an.js
+|   |   |   |           alt-as.js
+|   |   |   |           alt-eu.js
+|   |   |   |           alt-na.js
+|   |   |   |           alt-oc.js
+|   |   |   |           alt-sa.js
+|   |   |   |           alt-ww.js
+|   |   |   |           AM.js
+|   |   |   |           AO.js
+|   |   |   |           AR.js
+|   |   |   |           AS.js
+|   |   |   |           AT.js
+|   |   |   |           AU.js
+|   |   |   |           AW.js
+|   |   |   |           AX.js
+|   |   |   |           AZ.js
+|   |   |   |           BA.js
+|   |   |   |           BB.js
+|   |   |   |           BD.js
+|   |   |   |           BE.js
+|   |   |   |           BF.js
+|   |   |   |           BG.js
+|   |   |   |           BH.js
+|   |   |   |           BI.js
+|   |   |   |           BJ.js
+|   |   |   |           BM.js
+|   |   |   |           BN.js
+|   |   |   |           BO.js
+|   |   |   |           BR.js
+|   |   |   |           BS.js
+|   |   |   |           BT.js
+|   |   |   |           BW.js
+|   |   |   |           BY.js
+|   |   |   |           BZ.js
+|   |   |   |           CA.js
+|   |   |   |           CD.js
+|   |   |   |           CF.js
+|   |   |   |           CG.js
+|   |   |   |           CH.js
+|   |   |   |           CI.js
+|   |   |   |           CK.js
+|   |   |   |           CL.js
+|   |   |   |           CM.js
+|   |   |   |           CN.js
+|   |   |   |           CO.js
+|   |   |   |           CR.js
+|   |   |   |           CU.js
+|   |   |   |           CV.js
+|   |   |   |           CX.js
+|   |   |   |           CY.js
+|   |   |   |           CZ.js
+|   |   |   |           DE.js
+|   |   |   |           DJ.js
+|   |   |   |           DK.js
+|   |   |   |           DM.js
+|   |   |   |           DO.js
+|   |   |   |           DZ.js
+|   |   |   |           EC.js
+|   |   |   |           EE.js
+|   |   |   |           EG.js
+|   |   |   |           ER.js
+|   |   |   |           ES.js
+|   |   |   |           ET.js
+|   |   |   |           FI.js
+|   |   |   |           FJ.js
+|   |   |   |           FK.js
+|   |   |   |           FM.js
+|   |   |   |           FO.js
+|   |   |   |           FR.js
+|   |   |   |           GA.js
+|   |   |   |           GB.js
+|   |   |   |           GD.js
+|   |   |   |           GE.js
+|   |   |   |           GF.js
+|   |   |   |           GG.js
+|   |   |   |           GH.js
+|   |   |   |           GI.js
+|   |   |   |           GL.js
+|   |   |   |           GM.js
+|   |   |   |           GN.js
+|   |   |   |           GP.js
+|   |   |   |           GQ.js
+|   |   |   |           GR.js
+|   |   |   |           GT.js
+|   |   |   |           GU.js
+|   |   |   |           GW.js
+|   |   |   |           GY.js
+|   |   |   |           HK.js
+|   |   |   |           HN.js
+|   |   |   |           HR.js
+|   |   |   |           HT.js
+|   |   |   |           HU.js
+|   |   |   |           ID.js
+|   |   |   |           IE.js
+|   |   |   |           IL.js
+|   |   |   |           IM.js
+|   |   |   |           IN.js
+|   |   |   |           IQ.js
+|   |   |   |           IR.js
+|   |   |   |           IS.js
+|   |   |   |           IT.js
+|   |   |   |           JE.js
+|   |   |   |           JM.js
+|   |   |   |           JO.js
+|   |   |   |           JP.js
+|   |   |   |           KE.js
+|   |   |   |           KG.js
+|   |   |   |           KH.js
+|   |   |   |           KI.js
+|   |   |   |           KM.js
+|   |   |   |           KN.js
+|   |   |   |           KP.js
+|   |   |   |           KR.js
+|   |   |   |           KW.js
+|   |   |   |           KY.js
+|   |   |   |           KZ.js
+|   |   |   |           LA.js
+|   |   |   |           LB.js
+|   |   |   |           LC.js
+|   |   |   |           LI.js
+|   |   |   |           LK.js
+|   |   |   |           LR.js
+|   |   |   |           LS.js
+|   |   |   |           LT.js
+|   |   |   |           LU.js
+|   |   |   |           LV.js
+|   |   |   |           LY.js
+|   |   |   |           MA.js
+|   |   |   |           MC.js
+|   |   |   |           MD.js
+|   |   |   |           ME.js
+|   |   |   |           MG.js
+|   |   |   |           MH.js
+|   |   |   |           MK.js
+|   |   |   |           ML.js
+|   |   |   |           MM.js
+|   |   |   |           MN.js
+|   |   |   |           MO.js
+|   |   |   |           MP.js
+|   |   |   |           MQ.js
+|   |   |   |           MR.js
+|   |   |   |           MS.js
+|   |   |   |           MT.js
+|   |   |   |           MU.js
+|   |   |   |           MV.js
+|   |   |   |           MW.js
+|   |   |   |           MX.js
+|   |   |   |           MY.js
+|   |   |   |           MZ.js
+|   |   |   |           NA.js
+|   |   |   |           NC.js
+|   |   |   |           NE.js
+|   |   |   |           NF.js
+|   |   |   |           NG.js
+|   |   |   |           NI.js
+|   |   |   |           NL.js
+|   |   |   |           NO.js
+|   |   |   |           NP.js
+|   |   |   |           NR.js
+|   |   |   |           NU.js
+|   |   |   |           NZ.js
+|   |   |   |           OM.js
+|   |   |   |           PA.js
+|   |   |   |           PE.js
+|   |   |   |           PF.js
+|   |   |   |           PG.js
+|   |   |   |           PH.js
+|   |   |   |           PK.js
+|   |   |   |           PL.js
+|   |   |   |           PM.js
+|   |   |   |           PN.js
+|   |   |   |           PR.js
+|   |   |   |           PS.js
+|   |   |   |           PT.js
+|   |   |   |           PW.js
+|   |   |   |           PY.js
+|   |   |   |           QA.js
+|   |   |   |           RE.js
+|   |   |   |           RO.js
+|   |   |   |           RS.js
+|   |   |   |           RU.js
+|   |   |   |           RW.js
+|   |   |   |           SA.js
+|   |   |   |           SB.js
+|   |   |   |           SC.js
+|   |   |   |           SD.js
+|   |   |   |           SE.js
+|   |   |   |           SG.js
+|   |   |   |           SH.js
+|   |   |   |           SI.js
+|   |   |   |           SK.js
+|   |   |   |           SL.js
+|   |   |   |           SM.js
+|   |   |   |           SN.js
+|   |   |   |           SO.js
+|   |   |   |           SR.js
+|   |   |   |           ST.js
+|   |   |   |           SV.js
+|   |   |   |           SY.js
+|   |   |   |           SZ.js
+|   |   |   |           TC.js
+|   |   |   |           TD.js
+|   |   |   |           TG.js
+|   |   |   |           TH.js
+|   |   |   |           TJ.js
+|   |   |   |           TL.js
+|   |   |   |           TM.js
+|   |   |   |           TN.js
+|   |   |   |           TO.js
+|   |   |   |           TR.js
+|   |   |   |           TT.js
+|   |   |   |           TV.js
+|   |   |   |           TW.js
+|   |   |   |           TZ.js
+|   |   |   |           UA.js
+|   |   |   |           UG.js
+|   |   |   |           US.js
+|   |   |   |           UY.js
+|   |   |   |           UZ.js
+|   |   |   |           VA.js
+|   |   |   |           VC.js
+|   |   |   |           VE.js
+|   |   |   |           VG.js
+|   |   |   |           VI.js
+|   |   |   |           VN.js
+|   |   |   |           VU.js
+|   |   |   |           WF.js
+|   |   |   |           WS.js
+|   |   |   |           YE.js
+|   |   |   |           YT.js
+|   |   |   |           ZA.js
+|   |   |   |           ZM.js
+|   |   |   |           ZW.js
+|   |   |   |           
+|   |   |   \---dist
+|   |   |       +---lib
+|   |   |       |       statuses.js
+|   |   |       |       supported.js
+|   |   |       |       
+|   |   |       \---unpacker
+|   |   |               agents.js
+|   |   |               browsers.js
+|   |   |               browserVersions.js
+|   |   |               feature.js
+|   |   |               features.js
+|   |   |               index.js
+|   |   |               region.js
+|   |   |               
+|   |   +---electron-to-chromium
+|   |   |       chromium-versions.js
+|   |   |       chromium-versions.json
+|   |   |       full-chromium-versions.js
+|   |   |       full-chromium-versions.json
+|   |   |       full-versions.js
+|   |   |       full-versions.json
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       versions.js
+|   |   |       versions.json
+|   |   |       
+|   |   +---escalade
+|   |   |   |   index.d.mts
+|   |   |   |   index.d.ts
+|   |   |   |   license
+|   |   |   |   package.json
+|   |   |   |   readme.md
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       index.js
+|   |   |   |       index.mjs
+|   |   |   |       
+|   |   |   \---sync
+|   |   |           index.d.mts
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.mjs
+|   |   |           
+|   |   +---fraction.js
+|   |   |       bigfraction.js
+|   |   |       fraction.cjs
+|   |   |       fraction.d.ts
+|   |   |       fraction.js
+|   |   |       fraction.min.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---nanoid
+|   |   |   |   .devcontainer.json
+|   |   |   |   index.browser.cjs
+|   |   |   |   index.browser.js
+|   |   |   |   index.cjs
+|   |   |   |   index.d.cts
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   nanoid.js
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---async
+|   |   |   |       index.browser.cjs
+|   |   |   |       index.browser.js
+|   |   |   |       index.cjs
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       index.native.js
+|   |   |   |       package.json
+|   |   |   |       
+|   |   |   +---bin
+|   |   |   |       nanoid.cjs
+|   |   |   |       
+|   |   |   +---non-secure
+|   |   |   |       index.cjs
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       package.json
+|   |   |   |       
+|   |   |   \---url-alphabet
+|   |   |           index.cjs
+|   |   |           index.js
+|   |   |           package.json
+|   |   |           
+|   |   +---node-releases
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---data
+|   |   |       +---processed
+|   |   |       |       envs.json
+|   |   |       |       
+|   |   |       \---release-schedule
+|   |   |               release-schedule.json
+|   |   |               
+|   |   +---normalize-range
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---picocolors
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       picocolors.browser.js
+|   |   |       picocolors.d.ts
+|   |   |       picocolors.js
+|   |   |       README.md
+|   |   |       types.d.ts
+|   |   |       
+|   |   +---postcss
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           at-rule.d.ts
+|   |   |           at-rule.js
+|   |   |           comment.d.ts
+|   |   |           comment.js
+|   |   |           container.d.ts
+|   |   |           container.js
+|   |   |           css-syntax-error.d.ts
+|   |   |           css-syntax-error.js
+|   |   |           declaration.d.ts
+|   |   |           declaration.js
+|   |   |           document.d.ts
+|   |   |           document.js
+|   |   |           fromJSON.d.ts
+|   |   |           fromJSON.js
+|   |   |           input.d.ts
+|   |   |           input.js
+|   |   |           lazy-result.d.ts
+|   |   |           lazy-result.js
+|   |   |           list.d.ts
+|   |   |           list.js
+|   |   |           map-generator.js
+|   |   |           no-work-result.d.ts
+|   |   |           no-work-result.js
+|   |   |           node.d.ts
+|   |   |           node.js
+|   |   |           parse.d.ts
+|   |   |           parse.js
+|   |   |           parser.js
+|   |   |           postcss.d.mts
+|   |   |           postcss.d.ts
+|   |   |           postcss.js
+|   |   |           postcss.mjs
+|   |   |           previous-map.d.ts
+|   |   |           previous-map.js
+|   |   |           processor.d.ts
+|   |   |           processor.js
+|   |   |           result.d.ts
+|   |   |           result.js
+|   |   |           root.d.ts
+|   |   |           root.js
+|   |   |           rule.d.ts
+|   |   |           rule.js
+|   |   |           stringifier.d.ts
+|   |   |           stringifier.js
+|   |   |           stringify.d.ts
+|   |   |           stringify.js
+|   |   |           symbols.js
+|   |   |           terminal-highlight.js
+|   |   |           tokenize.js
+|   |   |           warn-once.js
+|   |   |           warning.d.ts
+|   |   |           warning.js
+|   |   |           
+|   |   +---postcss-value-parser
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           parse.js
+|   |   |           stringify.js
+|   |   |           unit.js
+|   |   |           walk.js
+|   |   |           
+|   |   +---source-map-js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   source-map.d.ts
+|   |   |   |   source-map.js
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           array-set.js
+|   |   |           base64-vlq.js
+|   |   |           base64.js
+|   |   |           binary-search.js
+|   |   |           mapping-list.js
+|   |   |           quick-sort.js
+|   |   |           source-map-consumer.d.ts
+|   |   |           source-map-consumer.js
+|   |   |           source-map-generator.d.ts
+|   |   |           source-map-generator.js
+|   |   |           source-node.d.ts
+|   |   |           source-node.js
+|   |   |           util.js
+|   |   |           
+|   |   +---tailwindcss
+|   |   |   |   index.css
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   preflight.css
+|   |   |   |   README.md
+|   |   |   |   theme.css
+|   |   |   |   utilities.css
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           chunk-AZANAYY2.mjs
+|   |   |           chunk-CH45MXZF.mjs
+|   |   |           chunk-V2K3XTS4.mjs
+|   |   |           colors-b_6i0Oi7.d.ts
+|   |   |           colors.d.mts
+|   |   |           colors.d.ts
+|   |   |           colors.js
+|   |   |           colors.mjs
+|   |   |           default-theme.d.mts
+|   |   |           default-theme.d.ts
+|   |   |           default-theme.js
+|   |   |           default-theme.mjs
+|   |   |           flatten-color-palette.d.mts
+|   |   |           flatten-color-palette.d.ts
+|   |   |           flatten-color-palette.js
+|   |   |           flatten-color-palette.mjs
+|   |   |           lib.d.mts
+|   |   |           lib.d.ts
+|   |   |           lib.js
+|   |   |           lib.mjs
+|   |   |           plugin.d.mts
+|   |   |           plugin.d.ts
+|   |   |           plugin.js
+|   |   |           plugin.mjs
+|   |   |           resolve-config-BIFUA2FY.d.ts
+|   |   |           resolve-config-QUZ9b-Gn.d.mts
+|   |   |           types-B254mqw1.d.mts
+|   |   |           
+|   |   \---update-browserslist-db
+|   |           check-npm-version.js
+|   |           cli.js
+|   |           index.d.ts
+|   |           index.js
+|   |           LICENSE
+|   |           package.json
+|   |           README.md
+|   |           utils.js
+|   |           
+|   +---obj
+|   |   |   Macro.Client.csproj.nuget.dgspec.json
+|   |   |   Macro.Client.csproj.nuget.g.props
+|   |   |   Macro.Client.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|   |           |   blazor.boot.json
+|   |           |   blazor.build.boot-extension.json
+|   |           |   Macro.Client.AssemblyInfo.cs
+|   |           |   Macro.Client.AssemblyInfoInputs.cache
+|   |           |   Macro.Client.assets.cache
+|   |           |   Macro.Client.csproj.AssemblyReference.cache
+|   |           |   Macro.Client.csproj.CopyComplete
+|   |           |   Macro.Client.csproj.CoreCompileInputs.cache
+|   |           |   Macro.Client.csproj.FileListAbsolute.txt
+|   |           |   Macro.Client.dll
+|   |           |   Macro.Client.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   Macro.Client.GlobalUsings.g.cs
+|   |           |   Macro.Client.MvcApplicationPartsAssemblyInfo.cache
+|   |           |   Macro.Client.pdb
+|   |           |   Macro.Client.sourcelink.json
+|   |           |   staticwebassets.build.json
+|   |           |   staticwebassets.development.json
+|   |           |   staticwebassets.pack.json
+|   |           |   
+|   |           +---compressed
+|   |           |       01ur1a7a4k.gz
+|   |           |       04b0rs3uzj.gz
+|   |           |       08wvfi10nk.gz
+|   |           |       0x4phz9pnc.gz
+|   |           |       1anjg06zd4.gz
+|   |           |       1j004xrciv.gz
+|   |           |       1lrq6i272f.gz
+|   |           |       1qe2w88yc7.gz
+|   |           |       1qthz58y9z.gz
+|   |           |       1u9whyxn28.gz
+|   |           |       1v18pctipu.gz
+|   |           |       1y1wrselv3.gz
+|   |           |       1z1hsxdtam.gz
+|   |           |       233072yup1.gz
+|   |           |       233hisdmbv.gz
+|   |           |       27qjxhbp04.gz
+|   |           |       2fqlbxo445.gz
+|   |           |       2gb4id1d2e.gz
+|   |           |       2isgu54irc.gz
+|   |           |       2o307df0cl.gz
+|   |           |       2p65sj51j8.gz
+|   |           |       2smyndkqk5.gz
+|   |           |       2zgbuhfjzg.gz
+|   |           |       33fumwzcp1.gz
+|   |           |       3njd3un0yw.gz
+|   |           |       3o8uc2n3om.gz
+|   |           |       3pipqyksmw.gz
+|   |           |       3zopjdsdfy.gz
+|   |           |       52w29hxb0w.gz
+|   |           |       5hy9bgsp3s.gz
+|   |           |       5oofjmve29.gz
+|   |           |       64nhnc7y6s.gz
+|   |           |       679l7jozop.gz
+|   |           |       6n5jzqe8yp.gz
+|   |           |       6xz14ukw07.gz
+|   |           |       72s4gf8rm1.gz
+|   |           |       77zkel6e0p.gz
+|   |           |       7a8mk6vl54.gz
+|   |           |       7bfj6k73bt.gz
+|   |           |       7fj9v7xjt5.gz
+|   |           |       7isdhplei2.gz
+|   |           |       7myof8to7g.gz
+|   |           |       7rhd1hzn2t.gz
+|   |           |       7vmadobfra.gz
+|   |           |       820ul8219u.gz
+|   |           |       86d5j8pzc8.gz
+|   |           |       8ipzlmjp7a.gz
+|   |           |       8r4e1pay49.gz
+|   |           |       8xv8vl0c84.gz
+|   |           |       8ysrvnrurz.gz
+|   |           |       99heo9mlvl.gz
+|   |           |       9cxvthziqi.gz
+|   |           |       9ho2cu3811.gz
+|   |           |       9jq6lm2ldw.gz
+|   |           |       9lcf5qoaye.gz
+|   |           |       9t2c8ga2yo.gz
+|   |           |       a8dqnp5ems.gz
+|   |           |       anl8orlard.gz
+|   |           |       anxuh5ajwh.gz
+|   |           |       avf6sbw25k.gz
+|   |           |       azmskhht8k.gz
+|   |           |       b8gvf8q2nh.gz
+|   |           |       bf35x0hs15.gz
+|   |           |       bqbxn7s3c5.gz
+|   |           |       bqvn0nvkv2.gz
+|   |           |       bwkkpuqlyn.gz
+|   |           |       c0qjizfgpi.gz
+|   |           |       c54v85yktc.gz
+|   |           |       cbkqicrc9k.gz
+|   |           |       csmqp07zh9.gz
+|   |           |       cumvpnf6ax.gz
+|   |           |       d03nsa0kkt.gz
+|   |           |       d0jat62x7g.gz
+|   |           |       d6ryfgxf09.gz
+|   |           |       dadogca1vy.gz
+|   |           |       ddn38ewvtk.gz
+|   |           |       diff79zqvu.gz
+|   |           |       djlrjt9diq.gz
+|   |           |       dr9snamynv.gz
+|   |           |       e61q2upoee.gz
+|   |           |       e6lvjdbqga.gz
+|   |           |       eb932o4jed.gz
+|   |           |       ejycxtx7ii.gz
+|   |           |       eli76xjl7s.gz
+|   |           |       eqs6t7mr4w.gz
+|   |           |       erkt3ohtbx.gz
+|   |           |       exins5924k.gz
+|   |           |       ey1n8qyj4i.gz
+|   |           |       f35frtkd1s.gz
+|   |           |       fi1tqe7vmk.gz
+|   |           |       fpcy1zml1i.gz
+|   |           |       fprdtdsipy.gz
+|   |           |       fveyapdap7.gz
+|   |           |       g3fke9k390.gz
+|   |           |       g50gykf3ot.gz
+|   |           |       gmg1m6hwdg.gz
+|   |           |       gtv3zs00ck.gz
+|   |           |       gzldrtuyiu.gz
+|   |           |       h4ohkn3pwf.gz
+|   |           |       h5xw836kyf.gz
+|   |           |       h9zxpo6v97.gz
+|   |           |       hafjinynxo.gz
+|   |           |       hajve6d8rk.gz
+|   |           |       hjhqwyudxj.gz
+|   |           |       i0ddb4gwud.gz
+|   |           |       i0xgxwdiwd.gz
+|   |           |       ih6mu4ezqm.gz
+|   |           |       iwqvy5etwb.gz
+|   |           |       j1rc4dzkjk.gz
+|   |           |       j3vi0brbz6.gz
+|   |           |       jbu15974s6.gz
+|   |           |       jfyqu1tzpj.gz
+|   |           |       jhv84fzaav.gz
+|   |           |       jliss1o5bq.gz
+|   |           |       juqg1viu6v.gz
+|   |           |       k4q05qohsi.gz
+|   |           |       k7ps2hhwa8.gz
+|   |           |       k8wik5hiyl.gz
+|   |           |       kgo2hll81e.gz
+|   |           |       kl4edrw5h3.gz
+|   |           |       l30s5ptat8.gz
+|   |           |       lbgf5jjacy.gz
+|   |           |       lhbshfb3vv.gz
+|   |           |       lktxkslgk4.gz
+|   |           |       lltz2utjcv.gz
+|   |           |       llwo0skjox.gz
+|   |           |       loffpsx0ob.gz
+|   |           |       lsr7rt2kf7.gz
+|   |           |       lxpijgdzq7.gz
+|   |           |       ly1z2aciuq.gz
+|   |           |       m5mrdr006a.gz
+|   |           |       mccj5e03hj.gz
+|   |           |       mrz4c0gkqk.gz
+|   |           |       n5dtr2fr6n.gz
+|   |           |       na1c5yd4n5.gz
+|   |           |       neziip64td.gz
+|   |           |       nkj0o1bhxb.gz
+|   |           |       ns8nugrvyl.gz
+|   |           |       nyykrvqtcm.gz
+|   |           |       o1n1wuj6ul.gz
+|   |           |       o94u2k8lam.gz
+|   |           |       o95e076eja.gz
+|   |           |       of1cb9q0qg.gz
+|   |           |       ohjxxkog51.gz
+|   |           |       ohuz7l1arx.gz
+|   |           |       ophespsu3t.gz
+|   |           |       oukwa13m5x.gz
+|   |           |       pcifuf992s.gz
+|   |           |       pe1p3o3y5c.gz
+|   |           |       ptmd7gnlzb.gz
+|   |           |       pz2kxdcx9p.gz
+|   |           |       qvbycxmd7q.gz
+|   |           |       qyrgtyusvy.gz
+|   |           |       r03fffs119.gz
+|   |           |       r50ok2zvoq.gz
+|   |           |       r556mttqn3.gz
+|   |           |       rhvaj2ibcy.gz
+|   |           |       riz86qg5vz.gz
+|   |           |       rlloelb7ly.gz
+|   |           |       rmfz33qmvb.gz
+|   |           |       s8bk1vrvni.gz
+|   |           |       sbn8sp31qv.gz
+|   |           |       siwbj5wk8a.gz
+|   |           |       sl51v6uytr.gz
+|   |           |       t3nkasaswy.gz
+|   |           |       tio5wjvbxb.gz
+|   |           |       u5sm1tabra.gz
+|   |           |       u6ffemaeig.gz
+|   |           |       uaj8tb8ezz.gz
+|   |           |       ucgqlib6gj.gz
+|   |           |       ufdti1g85l.gz
+|   |           |       ujbcxtg8my.gz
+|   |           |       uy0dxoxc2a.gz
+|   |           |       v6p89w7chs.gz
+|   |           |       varifh8kyk.gz
+|   |           |       vmclehonc6.gz
+|   |           |       vnvfzq516y.gz
+|   |           |       vrtd3qh678.gz
+|   |           |       vviwl3n7lg.gz
+|   |           |       wd24onvjdu.gz
+|   |           |       wg7v6g50b4.gz
+|   |           |       wqg4r3weg5.gz
+|   |           |       wr2sh3ohto.gz
+|   |           |       wzhv99iama.gz
+|   |           |       x67ds6iwig.gz
+|   |           |       xcsnqj6sam.gz
+|   |           |       xd0tr75qrd.gz
+|   |           |       xyco03etb4.gz
+|   |           |       y0oy8lvzqe.gz
+|   |           |       y41mhzbr8d.gz
+|   |           |       y5ixl380ca.gz
+|   |           |       y6z3na0lqe.gz
+|   |           |       ylm5o3fnt0.gz
+|   |           |       ys9d4giy6d.gz
+|   |           |       ytexdct00a.gz
+|   |           |       yzc1umx8ta.gz
+|   |           |       z0agxhyvca.gz
+|   |           |       z3enr6zpb6.gz
+|   |           |       z4tjiikz7k.gz
+|   |           |       z8m4hd10r3.gz
+|   |           |       zalq0m29pf.gz
+|   |           |       zhawnok3ie.gz
+|   |           |       zpg85ig1gp.gz
+|   |           |       zr9boal5hk.gz
+|   |           |       ztbc16ed23.gz
+|   |           |       zwk4hk07x1.gz
+|   |           |       zxkvtsmq7u.gz
+|   |           |       
+|   |           +---ref
+|   |           |       Macro.Client.dll
+|   |           |       
+|   |           +---refint
+|   |           |       Macro.Client.dll
+|   |           |       
+|   |           +---scopedcss
+|   |           |   +---bundle
+|   |           |   |       Macro.Client.styles.css
+|   |           |   |       
+|   |           |   +---Layout
+|   |           |   |       MainLayout.razor.rz.scp.css
+|   |           |   |       NavMenu.razor.rz.scp.css
+|   |           |   |       
+|   |           |   \---projectbundle
+|   |           |           Macro.Client.bundle.scp.css
+|   |           |           
+|   |           +---staticwebassets
+|   |           |       msbuild.build.Macro.Client.props
+|   |           |       msbuild.buildMultiTargeting.Macro.Client.props
+|   |           |       msbuild.buildTransitive.Macro.Client.props
+|   |           |       msbuild.Macro.Client.Microsoft.AspNetCore.StaticWebAssets.props
+|   |           |       
+|   |           +---tailwindcss
+|   |           |       Macro.Client.tailwind.css
+|   |           |       
+|   |           +---tmp-webcil
+|   |           |       Macro.Client.wasm
+|   |           |       Macro.Shared.wasm
+|   |           |       Microsoft.AspNetCore.Authorization.wasm
+|   |           |       Microsoft.AspNetCore.Components.Forms.wasm
+|   |           |       Microsoft.AspNetCore.Components.wasm
+|   |           |       Microsoft.AspNetCore.Components.Web.wasm
+|   |           |       Microsoft.AspNetCore.Components.WebAssembly.wasm
+|   |           |       Microsoft.AspNetCore.Metadata.wasm
+|   |           |       Microsoft.CSharp.wasm
+|   |           |       Microsoft.Extensions.Configuration.Abstractions.wasm
+|   |           |       Microsoft.Extensions.Configuration.Binder.wasm
+|   |           |       Microsoft.Extensions.Configuration.FileExtensions.wasm
+|   |           |       Microsoft.Extensions.Configuration.Json.wasm
+|   |           |       Microsoft.Extensions.Configuration.wasm
+|   |           |       Microsoft.Extensions.DependencyInjection.Abstractions.wasm
+|   |           |       Microsoft.Extensions.DependencyInjection.wasm
+|   |           |       Microsoft.Extensions.FileProviders.Abstractions.wasm
+|   |           |       Microsoft.Extensions.FileProviders.Physical.wasm
+|   |           |       Microsoft.Extensions.FileSystemGlobbing.wasm
+|   |           |       Microsoft.Extensions.Logging.Abstractions.wasm
+|   |           |       Microsoft.Extensions.Logging.wasm
+|   |           |       Microsoft.Extensions.Options.wasm
+|   |           |       Microsoft.Extensions.Primitives.wasm
+|   |           |       Microsoft.JSInterop.wasm
+|   |           |       Microsoft.JSInterop.WebAssembly.wasm
+|   |           |       Microsoft.VisualBasic.Core.wasm
+|   |           |       Microsoft.VisualBasic.wasm
+|   |           |       Microsoft.Win32.Primitives.wasm
+|   |           |       Microsoft.Win32.Registry.wasm
+|   |           |       mscorlib.wasm
+|   |           |       netstandard.wasm
+|   |           |       System.AppContext.wasm
+|   |           |       System.Buffers.wasm
+|   |           |       System.Collections.Concurrent.wasm
+|   |           |       System.Collections.Immutable.wasm
+|   |           |       System.Collections.NonGeneric.wasm
+|   |           |       System.Collections.Specialized.wasm
+|   |           |       System.Collections.wasm
+|   |           |       System.ComponentModel.Annotations.wasm
+|   |           |       System.ComponentModel.DataAnnotations.wasm
+|   |           |       System.ComponentModel.EventBasedAsync.wasm
+|   |           |       System.ComponentModel.Primitives.wasm
+|   |           |       System.ComponentModel.TypeConverter.wasm
+|   |           |       System.ComponentModel.wasm
+|   |           |       System.Configuration.wasm
+|   |           |       System.Console.wasm
+|   |           |       System.Core.wasm
+|   |           |       System.Data.Common.wasm
+|   |           |       System.Data.DataSetExtensions.wasm
+|   |           |       System.Data.wasm
+|   |           |       System.Diagnostics.Contracts.wasm
+|   |           |       System.Diagnostics.Debug.wasm
+|   |           |       System.Diagnostics.DiagnosticSource.wasm
+|   |           |       System.Diagnostics.FileVersionInfo.wasm
+|   |           |       System.Diagnostics.Process.wasm
+|   |           |       System.Diagnostics.StackTrace.wasm
+|   |           |       System.Diagnostics.TextWriterTraceListener.wasm
+|   |           |       System.Diagnostics.Tools.wasm
+|   |           |       System.Diagnostics.TraceSource.wasm
+|   |           |       System.Diagnostics.Tracing.wasm
+|   |           |       System.Drawing.Primitives.wasm
+|   |           |       System.Drawing.wasm
+|   |           |       System.Dynamic.Runtime.wasm
+|   |           |       System.Formats.Asn1.wasm
+|   |           |       System.Formats.Tar.wasm
+|   |           |       System.Globalization.Calendars.wasm
+|   |           |       System.Globalization.Extensions.wasm
+|   |           |       System.Globalization.wasm
+|   |           |       System.IO.Compression.Brotli.wasm
+|   |           |       System.IO.Compression.FileSystem.wasm
+|   |           |       System.IO.Compression.wasm
+|   |           |       System.IO.Compression.ZipFile.wasm
+|   |           |       System.IO.FileSystem.AccessControl.wasm
+|   |           |       System.IO.FileSystem.DriveInfo.wasm
+|   |           |       System.IO.FileSystem.Primitives.wasm
+|   |           |       System.IO.FileSystem.wasm
+|   |           |       System.IO.FileSystem.Watcher.wasm
+|   |           |       System.IO.IsolatedStorage.wasm
+|   |           |       System.IO.MemoryMappedFiles.wasm
+|   |           |       System.IO.Pipelines.wasm
+|   |           |       System.IO.Pipes.AccessControl.wasm
+|   |           |       System.IO.Pipes.wasm
+|   |           |       System.IO.UnmanagedMemoryStream.wasm
+|   |           |       System.IO.wasm
+|   |           |       System.Linq.Expressions.wasm
+|   |           |       System.Linq.Parallel.wasm
+|   |           |       System.Linq.Queryable.wasm
+|   |           |       System.Linq.wasm
+|   |           |       System.Memory.wasm
+|   |           |       System.Net.Http.Json.wasm
+|   |           |       System.Net.Http.wasm
+|   |           |       System.Net.HttpListener.wasm
+|   |           |       System.Net.Mail.wasm
+|   |           |       System.Net.NameResolution.wasm
+|   |           |       System.Net.NetworkInformation.wasm
+|   |           |       System.Net.Ping.wasm
+|   |           |       System.Net.Primitives.wasm
+|   |           |       System.Net.Quic.wasm
+|   |           |       System.Net.Requests.wasm
+|   |           |       System.Net.Security.wasm
+|   |           |       System.Net.ServicePoint.wasm
+|   |           |       System.Net.Sockets.wasm
+|   |           |       System.Net.wasm
+|   |           |       System.Net.WebClient.wasm
+|   |           |       System.Net.WebHeaderCollection.wasm
+|   |           |       System.Net.WebProxy.wasm
+|   |           |       System.Net.WebSockets.Client.wasm
+|   |           |       System.Net.WebSockets.wasm
+|   |           |       System.Numerics.Vectors.wasm
+|   |           |       System.Numerics.wasm
+|   |           |       System.ObjectModel.wasm
+|   |           |       System.Private.CoreLib.wasm
+|   |           |       System.Private.DataContractSerialization.wasm
+|   |           |       System.Private.Uri.wasm
+|   |           |       System.Private.Xml.Linq.wasm
+|   |           |       System.Private.Xml.wasm
+|   |           |       System.Reflection.DispatchProxy.wasm
+|   |           |       System.Reflection.Emit.ILGeneration.wasm
+|   |           |       System.Reflection.Emit.Lightweight.wasm
+|   |           |       System.Reflection.Emit.wasm
+|   |           |       System.Reflection.Extensions.wasm
+|   |           |       System.Reflection.Metadata.wasm
+|   |           |       System.Reflection.Primitives.wasm
+|   |           |       System.Reflection.TypeExtensions.wasm
+|   |           |       System.Reflection.wasm
+|   |           |       System.Resources.Reader.wasm
+|   |           |       System.Resources.ResourceManager.wasm
+|   |           |       System.Resources.Writer.wasm
+|   |           |       System.Runtime.CompilerServices.Unsafe.wasm
+|   |           |       System.Runtime.CompilerServices.VisualC.wasm
+|   |           |       System.Runtime.Extensions.wasm
+|   |           |       System.Runtime.Handles.wasm
+|   |           |       System.Runtime.InteropServices.JavaScript.wasm
+|   |           |       System.Runtime.InteropServices.RuntimeInformation.wasm
+|   |           |       System.Runtime.InteropServices.wasm
+|   |           |       System.Runtime.Intrinsics.wasm
+|   |           |       System.Runtime.Loader.wasm
+|   |           |       System.Runtime.Numerics.wasm
+|   |           |       System.Runtime.Serialization.Formatters.wasm
+|   |           |       System.Runtime.Serialization.Json.wasm
+|   |           |       System.Runtime.Serialization.Primitives.wasm
+|   |           |       System.Runtime.Serialization.wasm
+|   |           |       System.Runtime.Serialization.Xml.wasm
+|   |           |       System.Runtime.wasm
+|   |           |       System.Security.AccessControl.wasm
+|   |           |       System.Security.Claims.wasm
+|   |           |       System.Security.Cryptography.Algorithms.wasm
+|   |           |       System.Security.Cryptography.Cng.wasm
+|   |           |       System.Security.Cryptography.Csp.wasm
+|   |           |       System.Security.Cryptography.Encoding.wasm
+|   |           |       System.Security.Cryptography.OpenSsl.wasm
+|   |           |       System.Security.Cryptography.Primitives.wasm
+|   |           |       System.Security.Cryptography.wasm
+|   |           |       System.Security.Cryptography.X509Certificates.wasm
+|   |           |       System.Security.Principal.wasm
+|   |           |       System.Security.Principal.Windows.wasm
+|   |           |       System.Security.SecureString.wasm
+|   |           |       System.Security.wasm
+|   |           |       System.ServiceModel.Web.wasm
+|   |           |       System.ServiceProcess.wasm
+|   |           |       System.Text.Encoding.CodePages.wasm
+|   |           |       System.Text.Encoding.Extensions.wasm
+|   |           |       System.Text.Encoding.wasm
+|   |           |       System.Text.Encodings.Web.wasm
+|   |           |       System.Text.Json.wasm
+|   |           |       System.Text.RegularExpressions.wasm
+|   |           |       System.Threading.Channels.wasm
+|   |           |       System.Threading.Overlapped.wasm
+|   |           |       System.Threading.Tasks.Dataflow.wasm
+|   |           |       System.Threading.Tasks.Extensions.wasm
+|   |           |       System.Threading.Tasks.Parallel.wasm
+|   |           |       System.Threading.Tasks.wasm
+|   |           |       System.Threading.Thread.wasm
+|   |           |       System.Threading.ThreadPool.wasm
+|   |           |       System.Threading.Timer.wasm
+|   |           |       System.Threading.wasm
+|   |           |       System.Transactions.Local.wasm
+|   |           |       System.Transactions.wasm
+|   |           |       System.ValueTuple.wasm
+|   |           |       System.wasm
+|   |           |       System.Web.HttpUtility.wasm
+|   |           |       System.Web.wasm
+|   |           |       System.Windows.wasm
+|   |           |       System.Xml.Linq.wasm
+|   |           |       System.Xml.ReaderWriter.wasm
+|   |           |       System.Xml.Serialization.wasm
+|   |           |       System.Xml.wasm
+|   |           |       System.Xml.XDocument.wasm
+|   |           |       System.Xml.XmlDocument.wasm
+|   |           |       System.Xml.XmlSerializer.wasm
+|   |           |       System.Xml.XPath.wasm
+|   |           |       System.Xml.XPath.XDocument.wasm
+|   |           |       tailwindcss.wasm
+|   |           |       WindowsBase.wasm
+|   |           |       
+|   |           \---webcil
+|   |                   Macro.Client.wasm
+|   |                   Macro.Shared.wasm
+|   |                   Microsoft.AspNetCore.Authorization.wasm
+|   |                   Microsoft.AspNetCore.Components.Forms.wasm
+|   |                   Microsoft.AspNetCore.Components.wasm
+|   |                   Microsoft.AspNetCore.Components.Web.wasm
+|   |                   Microsoft.AspNetCore.Components.WebAssembly.wasm
+|   |                   Microsoft.AspNetCore.Metadata.wasm
+|   |                   Microsoft.CSharp.wasm
+|   |                   Microsoft.Extensions.Configuration.Abstractions.wasm
+|   |                   Microsoft.Extensions.Configuration.Binder.wasm
+|   |                   Microsoft.Extensions.Configuration.FileExtensions.wasm
+|   |                   Microsoft.Extensions.Configuration.Json.wasm
+|   |                   Microsoft.Extensions.Configuration.wasm
+|   |                   Microsoft.Extensions.DependencyInjection.Abstractions.wasm
+|   |                   Microsoft.Extensions.DependencyInjection.wasm
+|   |                   Microsoft.Extensions.FileProviders.Abstractions.wasm
+|   |                   Microsoft.Extensions.FileProviders.Physical.wasm
+|   |                   Microsoft.Extensions.FileSystemGlobbing.wasm
+|   |                   Microsoft.Extensions.Logging.Abstractions.wasm
+|   |                   Microsoft.Extensions.Logging.wasm
+|   |                   Microsoft.Extensions.Options.wasm
+|   |                   Microsoft.Extensions.Primitives.wasm
+|   |                   Microsoft.JSInterop.wasm
+|   |                   Microsoft.JSInterop.WebAssembly.wasm
+|   |                   Microsoft.VisualBasic.Core.wasm
+|   |                   Microsoft.VisualBasic.wasm
+|   |                   Microsoft.Win32.Primitives.wasm
+|   |                   Microsoft.Win32.Registry.wasm
+|   |                   mscorlib.wasm
+|   |                   netstandard.wasm
+|   |                   System.AppContext.wasm
+|   |                   System.Buffers.wasm
+|   |                   System.Collections.Concurrent.wasm
+|   |                   System.Collections.Immutable.wasm
+|   |                   System.Collections.NonGeneric.wasm
+|   |                   System.Collections.Specialized.wasm
+|   |                   System.Collections.wasm
+|   |                   System.ComponentModel.Annotations.wasm
+|   |                   System.ComponentModel.DataAnnotations.wasm
+|   |                   System.ComponentModel.EventBasedAsync.wasm
+|   |                   System.ComponentModel.Primitives.wasm
+|   |                   System.ComponentModel.TypeConverter.wasm
+|   |                   System.ComponentModel.wasm
+|   |                   System.Configuration.wasm
+|   |                   System.Console.wasm
+|   |                   System.Core.wasm
+|   |                   System.Data.Common.wasm
+|   |                   System.Data.DataSetExtensions.wasm
+|   |                   System.Data.wasm
+|   |                   System.Diagnostics.Contracts.wasm
+|   |                   System.Diagnostics.Debug.wasm
+|   |                   System.Diagnostics.DiagnosticSource.wasm
+|   |                   System.Diagnostics.FileVersionInfo.wasm
+|   |                   System.Diagnostics.Process.wasm
+|   |                   System.Diagnostics.StackTrace.wasm
+|   |                   System.Diagnostics.TextWriterTraceListener.wasm
+|   |                   System.Diagnostics.Tools.wasm
+|   |                   System.Diagnostics.TraceSource.wasm
+|   |                   System.Diagnostics.Tracing.wasm
+|   |                   System.Drawing.Primitives.wasm
+|   |                   System.Drawing.wasm
+|   |                   System.Dynamic.Runtime.wasm
+|   |                   System.Formats.Asn1.wasm
+|   |                   System.Formats.Tar.wasm
+|   |                   System.Globalization.Calendars.wasm
+|   |                   System.Globalization.Extensions.wasm
+|   |                   System.Globalization.wasm
+|   |                   System.IO.Compression.Brotli.wasm
+|   |                   System.IO.Compression.FileSystem.wasm
+|   |                   System.IO.Compression.wasm
+|   |                   System.IO.Compression.ZipFile.wasm
+|   |                   System.IO.FileSystem.AccessControl.wasm
+|   |                   System.IO.FileSystem.DriveInfo.wasm
+|   |                   System.IO.FileSystem.Primitives.wasm
+|   |                   System.IO.FileSystem.wasm
+|   |                   System.IO.FileSystem.Watcher.wasm
+|   |                   System.IO.IsolatedStorage.wasm
+|   |                   System.IO.MemoryMappedFiles.wasm
+|   |                   System.IO.Pipelines.wasm
+|   |                   System.IO.Pipes.AccessControl.wasm
+|   |                   System.IO.Pipes.wasm
+|   |                   System.IO.UnmanagedMemoryStream.wasm
+|   |                   System.IO.wasm
+|   |                   System.Linq.Expressions.wasm
+|   |                   System.Linq.Parallel.wasm
+|   |                   System.Linq.Queryable.wasm
+|   |                   System.Linq.wasm
+|   |                   System.Memory.wasm
+|   |                   System.Net.Http.Json.wasm
+|   |                   System.Net.Http.wasm
+|   |                   System.Net.HttpListener.wasm
+|   |                   System.Net.Mail.wasm
+|   |                   System.Net.NameResolution.wasm
+|   |                   System.Net.NetworkInformation.wasm
+|   |                   System.Net.Ping.wasm
+|   |                   System.Net.Primitives.wasm
+|   |                   System.Net.Quic.wasm
+|   |                   System.Net.Requests.wasm
+|   |                   System.Net.Security.wasm
+|   |                   System.Net.ServicePoint.wasm
+|   |                   System.Net.Sockets.wasm
+|   |                   System.Net.wasm
+|   |                   System.Net.WebClient.wasm
+|   |                   System.Net.WebHeaderCollection.wasm
+|   |                   System.Net.WebProxy.wasm
+|   |                   System.Net.WebSockets.Client.wasm
+|   |                   System.Net.WebSockets.wasm
+|   |                   System.Numerics.Vectors.wasm
+|   |                   System.Numerics.wasm
+|   |                   System.ObjectModel.wasm
+|   |                   System.Private.CoreLib.wasm
+|   |                   System.Private.DataContractSerialization.wasm
+|   |                   System.Private.Uri.wasm
+|   |                   System.Private.Xml.Linq.wasm
+|   |                   System.Private.Xml.wasm
+|   |                   System.Reflection.DispatchProxy.wasm
+|   |                   System.Reflection.Emit.ILGeneration.wasm
+|   |                   System.Reflection.Emit.Lightweight.wasm
+|   |                   System.Reflection.Emit.wasm
+|   |                   System.Reflection.Extensions.wasm
+|   |                   System.Reflection.Metadata.wasm
+|   |                   System.Reflection.Primitives.wasm
+|   |                   System.Reflection.TypeExtensions.wasm
+|   |                   System.Reflection.wasm
+|   |                   System.Resources.Reader.wasm
+|   |                   System.Resources.ResourceManager.wasm
+|   |                   System.Resources.Writer.wasm
+|   |                   System.Runtime.CompilerServices.Unsafe.wasm
+|   |                   System.Runtime.CompilerServices.VisualC.wasm
+|   |                   System.Runtime.Extensions.wasm
+|   |                   System.Runtime.Handles.wasm
+|   |                   System.Runtime.InteropServices.JavaScript.wasm
+|   |                   System.Runtime.InteropServices.RuntimeInformation.wasm
+|   |                   System.Runtime.InteropServices.wasm
+|   |                   System.Runtime.Intrinsics.wasm
+|   |                   System.Runtime.Loader.wasm
+|   |                   System.Runtime.Numerics.wasm
+|   |                   System.Runtime.Serialization.Formatters.wasm
+|   |                   System.Runtime.Serialization.Json.wasm
+|   |                   System.Runtime.Serialization.Primitives.wasm
+|   |                   System.Runtime.Serialization.wasm
+|   |                   System.Runtime.Serialization.Xml.wasm
+|   |                   System.Runtime.wasm
+|   |                   System.Security.AccessControl.wasm
+|   |                   System.Security.Claims.wasm
+|   |                   System.Security.Cryptography.Algorithms.wasm
+|   |                   System.Security.Cryptography.Cng.wasm
+|   |                   System.Security.Cryptography.Csp.wasm
+|   |                   System.Security.Cryptography.Encoding.wasm
+|   |                   System.Security.Cryptography.OpenSsl.wasm
+|   |                   System.Security.Cryptography.Primitives.wasm
+|   |                   System.Security.Cryptography.wasm
+|   |                   System.Security.Cryptography.X509Certificates.wasm
+|   |                   System.Security.Principal.wasm
+|   |                   System.Security.Principal.Windows.wasm
+|   |                   System.Security.SecureString.wasm
+|   |                   System.Security.wasm
+|   |                   System.ServiceModel.Web.wasm
+|   |                   System.ServiceProcess.wasm
+|   |                   System.Text.Encoding.CodePages.wasm
+|   |                   System.Text.Encoding.Extensions.wasm
+|   |                   System.Text.Encoding.wasm
+|   |                   System.Text.Encodings.Web.wasm
+|   |                   System.Text.Json.wasm
+|   |                   System.Text.RegularExpressions.wasm
+|   |                   System.Threading.Channels.wasm
+|   |                   System.Threading.Overlapped.wasm
+|   |                   System.Threading.Tasks.Dataflow.wasm
+|   |                   System.Threading.Tasks.Extensions.wasm
+|   |                   System.Threading.Tasks.Parallel.wasm
+|   |                   System.Threading.Tasks.wasm
+|   |                   System.Threading.Thread.wasm
+|   |                   System.Threading.ThreadPool.wasm
+|   |                   System.Threading.Timer.wasm
+|   |                   System.Threading.wasm
+|   |                   System.Transactions.Local.wasm
+|   |                   System.Transactions.wasm
+|   |                   System.ValueTuple.wasm
+|   |                   System.wasm
+|   |                   System.Web.HttpUtility.wasm
+|   |                   System.Web.wasm
+|   |                   System.Windows.wasm
+|   |                   System.Xml.Linq.wasm
+|   |                   System.Xml.ReaderWriter.wasm
+|   |                   System.Xml.Serialization.wasm
+|   |                   System.Xml.wasm
+|   |                   System.Xml.XDocument.wasm
+|   |                   System.Xml.XmlDocument.wasm
+|   |                   System.Xml.XmlSerializer.wasm
+|   |                   System.Xml.XPath.wasm
+|   |                   System.Xml.XPath.XDocument.wasm
+|   |                   tailwindcss.wasm
+|   |                   WindowsBase.wasm
+|   |                   
+|   +---Pages
+|   |       Counter.razor
+|   |       Home.razor
+|   |       Weather.razor
+|   |       
+|   +---Properties
+|   |       launchSettings.json
+|   |       
+|   +---Services
+|   +---Shared
+|   \---wwwroot
+|       |   favicon.png
+|       |   icon-192.png
+|       |   index.html
+|       |   
+|       +---css
+|       |   |   app.css
+|       |   |   site.css
+|       |   |   tailwind.css
+|       |   |   
+|       |   \---bootstrap
+|       |           bootstrap.min.css
+|       |           bootstrap.min.css.map
+|       |           
+|       \---sample-data
+|               weather.json
+|               
+\---Macro.Shared
+    |   Class1.cs
+    |   Macro.Shared.csproj
+    |   
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    |               Macro.Shared.deps.json
+    |               Macro.Shared.dll
+    |               Macro.Shared.pdb
+    |               
+    +---DTOs
+    |       AdjustedItemDto.cs
+    |       AdjustedRecipeDto.cs
+    |       ItemDto.cs
+    |       ItemTypeDto.cs
+    |       RecipeDto.cs
+    |       RecipeItemDto.cs
+    |       
+    \---obj
+        |   Macro.Shared.csproj.nuget.dgspec.json
+        |   Macro.Shared.csproj.nuget.g.props
+        |   Macro.Shared.csproj.nuget.g.targets
+        |   project.assets.json
+        |   project.nuget.cache
+        |   
+        \---Debug
+            \---net8.0
+                |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                |   Macro.Shared.AssemblyInfo.cs
+                |   Macro.Shared.AssemblyInfoInputs.cache
+                |   Macro.Shared.assets.cache
+                |   Macro.Shared.csproj.CoreCompileInputs.cache
+                |   Macro.Shared.csproj.FileListAbsolute.txt
+                |   Macro.Shared.dll
+                |   Macro.Shared.GeneratedMSBuildEditorConfig.editorconfig
+                |   Macro.Shared.GlobalUsings.g.cs
+                |   Macro.Shared.pdb
+                |   Macro.Shared.sourcelink.json
+                |   
+                +---ref
+                |       Macro.Shared.dll
+                |       
+                \---refint
+                        Macro.Shared.dll
+                        
